@@ -5,7 +5,7 @@
 - [**The One Probe**](https://www.curseforge.com/minecraft/mc-mods/the-one-probe) <kbd>required: *none*</kbd> `client and server side istallation`
 - [**AE2 Things**](https://www.curseforge.com/minecraft/mc-mods/ae2-things-forge) <kbd>required: [**Applied Energistics 2**](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)</kbd> `client and server side istallation`
 - [**Applied Energistics 2**](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) <kbd>required: *none*</kbd> `client and server side istallation`
-- [**AE2WTLib**](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals) <kbd>required: [**Applied Energistics 2**](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)</kbd> `client and server side istallation`
+- [**AE2WTLib**](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals) <kbd>required: [**Architectury API**](https://www.curseforge.com/minecraft/mc-mods/architectury-api),<br>[**Applied Energistics 2**](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)</kbd> `client and server side istallation`
 - [**Better Combat**](https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus) <kbd>required: [**Cloth Config API**](https://www.curseforge.com/minecraft/mc-mods/cloth-config)</kbd> `client and server side istallation`
 - [**Better Third Person**](https://www.curseforge.com/minecraft/mc-mods/better-third-person) <kbd>required: *none*</kbd> `client side istallation`
 - [**Biomes O' Plenty**](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty) <kbd>required: [**TerraBlender**](https://www.curseforge.com/minecraft/mc-mods/terrablender)</kbd> `client and server side istallation`
@@ -47,7 +47,7 @@
 
 <br>
 
-## Libs <kbd>**12**</kbd>
+## Libs <kbd>**13**</kbd>
 
 - [**Curios API**](https://www.curseforge.com/minecraft/mc-mods/curios) <kbd>uses: [**IC2 Classic**](https://www.curseforge.com/minecraft/mc-mods/ic2-classic)</kbd> `client and server side istallation`
 - [**Cloth Config API**](https://www.curseforge.com/minecraft/mc-mods/cloth-config) <kbd>uses: [**Better Combat**](https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus)</kbd> `client and server side istallation`
@@ -61,3 +61,4 @@
 - [**SuperMartijn642's Config Lib**](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib) <kbd>uses: [**Packed Up**](https://www.curseforge.com/minecraft/mc-mods/packed-up-backpacks)</kbd> `client and server side istallation`
 - [**SuperMartijn642's Core Lib**](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) <kbd>uses: [**Packed Up**](https://www.curseforge.com/minecraft/mc-mods/packed-up-backpacks)</kbd> `client and server side istallation`
 - [**CoFH Core**](https://www.curseforge.com/minecraft/mc-mods/cofh-core) <kbd>uses: [**Thermal Expansion**](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion),<br>[**Thermal Foundation**](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation),<br>[**Thermal Cultivation**](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation),<br>[**Thermal Dynamics**](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics),<br>[**Thermal Innovation**](https://www.curseforge.com/minecraft/mc-mods/thermal-innovation),<br>[**Thermal Integration**](https://www.curseforge.com/minecraft/mc-mods/thermal-integration)</kbd> `client and server side istallation`
+- [**Architectury API**](https://www.curseforge.com/minecraft/mc-mods/architectury-api) <kbd>uses: [**AE2WTLib**](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals)</kbd> `client and server side istallation`
