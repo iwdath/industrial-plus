@@ -1,5 +1,7 @@
 # TechnoMagic Modpack for Minecraft Forge 1.19.2
 
+⚠️ **`Please note:`** Some mods may conflict with <kbd>**OptiFine**</kbd>. Therefore, this pack uses <kbd>**Embeddium**</kbd> and <kbd>**Oculus**</kbd> instead. For the pack to work correctly, launch Minecraft on <kbd>**Forge**</kbd> version <kbd>**1.19.2**</kbd> without <kbd>**OptiFine**</kbd>.
+
 ## Installation
 
 The mods in this pack are divided into <kbd>**client-side**</kbd> and <kbd>**server-side**</kbd> for easier and faster installation.
@@ -47,10 +49,10 @@ In this section, all mods included in this pack, both <kbd>**client-side**</kbd>
 
 Each table provides the following information:
 
-- `Mod Name`: The name of the mod or library.
-- `Mod Dependencies`: Other mods or libraries that this mod requires to function.
-- `Mods Using the Library`: If it’s a library, the mods that use it are listed here.
-- `Mod Installation Side`: Indicates whether the mod is intended for the <kbd>**client-side**</kbd> or <kbd>**server-side**</kbd>.
+- **`Mod Name:`** The name of the mod or library.
+- **`Mod Dependencies:`** Other mods or libraries that this mod requires to function.
+- **`Mods Using the Library:`** If it’s a library, the mods that use it are listed here.
+- **`Mod Installation Side:`** Indicates whether the mod is intended for the <kbd>**client-side**</kbd> or <kbd>**server-side**</kbd>.
 
 This structure allows users to tailor the pack to their needs.
 
