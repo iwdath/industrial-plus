@@ -1,6 +1,19 @@
-# Tables of modifications <kbd>**71**</kbd>
+## Tables of modifications <kbd>**71**</kbd>
 
-## Mods <kbd>**55**</kbd>
+In this section, all mods included in this pack, both client-side and server-side, are presented. The mods are organized into two tables: **‘Mods’** and **‘Libs’**. This provides a convenient overview of dependencies and allows for easy removal of unwanted mods and their associated libraries.
+
+Each table provides the following information:
+
+- `Mod Name`: The name of the mod or library.
+- `Mod Dependencies`: Other mods or libraries that this mod requires to function.
+- `Mods Using the Library`: If it’s a library, the mods that use it are listed here.
+- `Mod Installation Side`: Indicates whether the mod is intended for the client-side or server-side.
+
+This structure allows users to tailor the pack to their needs.
+
+<br>
+
+### Mods <kbd>**55**</kbd>
 
 | **name** | **dependencies** | **installation side** |
 |----------|------------------|-----------------------|
@@ -62,7 +75,7 @@
 
 <br>
 
-## Libs <kbd>**16**</kbd>
+### Libs <kbd>**16**</kbd>
 
 | **name** | **used by** | **installation side** |
 |----------|-------------|-----------------------|
