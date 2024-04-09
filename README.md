@@ -1,17 +1,58 @@
+# TechnoMagic Modpack for Minecraft Forge 1.19.2
+
+## Installation
+
+The mods in this pack are divided into <kbd>**client-side**</kbd> and <kbd>**server-side**</kbd> for easier and faster installation.
+
+### Client-side
+
+If you're playing in single-player mode, you only need to install <kbd>**client-side**</kbd> mods. These mods should be placed in the <kbd>**mods**</kbd> folder, which is usually located in the root folder of your launcher. _For more detailed information, refer to your launcher's documentation._
+
+<kbd>**Client-side**</kbd> mods are located in this repository at the following path:
+
+```
+└── client
+    ├── libs
+    │   ├── lib.jar
+    │   └── ...
+    └── mods
+        ├── mod.jar
+        └── ...
+```
+
+> You need to move the files from the <kbd>**mods**</kbd> and <kbd>**libs**</kbd> folders to the <kbd>**mods**</kbd> folder of your launcher.
+
+### Server-side
+
+If you're playing on your own server, you'll also need to install mods on the server. Some mods are visual and don't require installation on the server, and some may cause errors. To save you from manually removing <kbd>**client-side**</kbd> mods, I've already done it for you and placed them in a separate folder.
+
+<kbd>**Server-side**</kbd> mods are located in this repository at the following path:
+
+```
+└── server
+    ├── libs
+    │   ├── lib.jar
+    │   └── ...
+    └── mods
+        ├── mod.jar
+        └── ...
+```
+
+> You need to move the files from the <kbd>**mods**</kbd> and <kbd>**libs**</kbd> folders to the <kbd>**mods**</kbd> folder of your server.
+>> _Don't forget to install mods on your computer as indicated in the <kbd>**_Client-side_**</kbd> installation section._
+
 ## Tables of modifications <kbd>**71**</kbd>
 
-In this section, all mods included in this pack, both client-side and server-side, are presented. The mods are organized into two tables: **‘Mods’** and **‘Libs’**. This provides a convenient overview of dependencies and allows for easy removal of unwanted mods and their associated libraries.
+In this section, all mods included in this pack, both <kbd>**client-side**</kbd> and <kbd>**server-side**</kbd>, are presented. The mods are organized into two tables: <kbd>**Mods**</kbd> and <kbd>**Libs**</kbd>. This provides a convenient overview of dependencies and allows for easy removal of unwanted mods and their associated libraries.
 
 Each table provides the following information:
 
 - `Mod Name`: The name of the mod or library.
 - `Mod Dependencies`: Other mods or libraries that this mod requires to function.
 - `Mods Using the Library`: If it’s a library, the mods that use it are listed here.
-- `Mod Installation Side`: Indicates whether the mod is intended for the client-side or server-side.
+- `Mod Installation Side`: Indicates whether the mod is intended for the <kbd>**client-side**</kbd> or <kbd>**server-side**</kbd>.
 
 This structure allows users to tailor the pack to their needs.
-
-<br>
 
 ### Mods <kbd>**55**</kbd>
 
@@ -72,8 +113,6 @@ This structure allows users to tailor the pack to their needs.
 | [**Xaero's Minimap**][xaeros-minimap] | <kbd>_none_</kbd> | `client and server` |
 | [**Xaero's World Map**][xaeros-world-map] | <kbd>_none_</kbd> | `client and server` |
 | [**YDM's Weapon Master**][ydms-weapon-master] | <kbd>_none_</kbd> | `client and server` |
-
-<br>
 
 ### Libs <kbd>**16**</kbd>
 
