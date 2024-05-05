@@ -74,6 +74,7 @@ This structure allows users to tailor the pack to their needs.
 | [**Carry On**][carry-on] | <kbd>_none_</kbd> | `client and server` |
 | [**ChoiceTheorem's<br>Overhauled Village<br>(CTOV)**][ctov] | <kbd>_none_</kbd> | `client and server` |
 | [**Cosmetic Armor Reworked**][cosmetic-armor-reworked] | <kbd>_none_</kbd> | `client and server` |
+| [**Dynamic Lights**][dynamic-lights] | <kbd>_none_</kbd> | `client` |
 | [**Embeddium**][embeddium] | <kbd>_none_</kbd> | `client` |
 | [**Embeddium Extra**][embeddium-extra] | <kbd>[**Embeddium**][embeddium]</kbd> | `client` |
 | [**Embeddium Extras**][embeddium-extras] | <kbd>[**Embeddium**][embeddium]</kbd> | `client` |
@@ -152,6 +153,7 @@ This structure allows users to tailor the pack to their needs.
 [carry-on]: https://www.curseforge.com/minecraft/mc-mods/carry-on
 [ctov]: https://www.curseforge.com/minecraft/mc-mods/choicetheorems-overhauled-village
 [cosmetic-armor-reworked]: https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked
+[dynamic-lights]: https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged
 [embeddium]: https://www.curseforge.com/minecraft/mc-mods/embeddium
 [embeddium-extra]: https://www.curseforge.com/minecraft/mc-mods/rubidium-extra
 [embeddium-extras]: https://www.curseforge.com/minecraft/mc-mods/magnesium-extras
