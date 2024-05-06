@@ -103,6 +103,7 @@ This structure allows users to tailor the pack to their needs.
 | [**Oculus**][oculus] | <kbd>[**Embeddium**][embeddium]</kbd> | `client` |
 | [**OpenBlocks Elevator<br>(Elevatorid)**][elevatorid] | <kbd>_none_</kbd> | `client and server` |
 | [**Packed Up**][packed-up] | <kbd>[**SuperMartijn642's Config Lib**][supermartijn642s-config-lib],<br><br>[**SuperMartijn642's Core Lib**][supermartijn642s-core-lib]</kbd> | `client and server` |
+| [**Pipez**][pipez] | <kbd>_none_</kbd> | `client and server` |
 | [**Serene Seasons**][serene-seasons] | <kbd>_none_</kbd> | `client and server` |
 | [**Simply Swords**][simply-swords] | <kbd>[**Architectury API**][architectury-api],<br><br>[**Cloth Config API**][cloth-config-api]</kbd> | `client and server` |
 | [**Skin Layers 3D**][skin-layers-3d] | <kbd>_none_</kbd> | `client` |
@@ -184,6 +185,7 @@ This structure allows users to tailor the pack to their needs.
 [oculus]: https://www.curseforge.com/minecraft/mc-mods/oculus
 [elevatorid]: https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator
 [packed-up]: https://www.curseforge.com/minecraft/mc-mods/packed-up-backpacks
+[pipez]: https://www.curseforge.com/minecraft/mc-mods/pipez
 [serene-seasons]: https://www.curseforge.com/minecraft/mc-mods/serene-seasons
 [simply-swords]: https://www.curseforge.com/minecraft/mc-mods/simply-swords
 [skin-layers-3d]: https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d
