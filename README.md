@@ -85,6 +85,7 @@ This structure allows users to tailor the pack to their needs.
 | [**Guard Villagers**][guard-villagers] | <kbd>_none_</kbd> | `client and server` |
 | [**HT's TreeChop**][hts-treechop] | <kbd>_none_</kbd> | `client and server` |
 | [**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic] | <kbd>[**Curios API**][curios-api]</kbd> | `client and server` |
+| [**Industrial Craft 2 Classic<br>UU-Matter<br>(IC2C UU-Matter)**][ic2-classic-uu-matter] | <kbd>[**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic],<br><br>[**Just Enough Items (JEI)**][jei]</kbd> | `client and server` |
 | [**Inventory HUD+**][inventory-hud] | <kbd>_none_</kbd> | `client` |
 | [**Inventory Profiles Next (IPN)**][ipn] | <kbd>[**Kotlin**][kotlin], [**libIPN**][libipn]</kbd> | `client` |
 | [**Iron Chests**][iron-chests] | <kbd>_none_</kbd> | `client and server` |
@@ -92,6 +93,7 @@ This structure allows users to tailor the pack to their needs.
 | [**Item Borders**][item-borders] | <kbd>[**Iceberg**][iceberg], [**Prism**][prism]</kbd> | `client` |
 | [**ItemPhysic Full**][itemphysic-full] | <kbd>[**CreativeCore**][creativecore]</kbd> | `client and server` |
 | [**Just Enough Items (JEI)**][jei] | <kbd>_none_</kbd> | `client and server` |
+| [**Just Enough Resources (JER)**][jer] | <kbd>[**Just Enough Items (JEI)**][jei]</kbd> | `client and server` |
 | [**Legendary Tooltips**][legendary-tooltips] | <kbd>[**Iceberg**][iceberg], [**Prism**][prism]</kbd> | `client` |
 | [**Lootr**][lootr] | <kbd>_none_</kbd> | `client and server` |
 | [**Model Gap Fix**][model-gap-fix] | <kbd>_none_</kbd> | `client` |
@@ -164,6 +166,7 @@ This structure allows users to tailor the pack to their needs.
 [guard-villagers]: https://www.curseforge.com/minecraft/mc-mods/guard-villagers
 [hts-treechop]: https://www.curseforge.com/minecraft/mc-mods/treechop
 [ic2-classic]: https://www.curseforge.com/minecraft/mc-mods/ic2-classic
+[ic2-classic-uu-matter]: https://www.curseforge.com/minecraft/mc-mods/ic2cuumatter
 [inventory-hud]: https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge
 [ipn]: https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next
 [iron-chests]: https://www.curseforge.com/minecraft/mc-mods/iron-chests
@@ -171,6 +174,7 @@ This structure allows users to tailor the pack to their needs.
 [item-borders]: https://www.curseforge.com/minecraft/mc-mods/item-borders
 [itemphysic-full]: https://www.curseforge.com/minecraft/mc-mods/itemphysic
 [jei]: https://www.curseforge.com/minecraft/mc-mods/jei
+[jer]: https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer
 [legendary-tooltips]: https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips
 [lootr]: https://www.curseforge.com/minecraft/mc-mods/lootr
 [model-gap-fix]: https://www.curseforge.com/minecraft/mc-mods/model-gap-fix
