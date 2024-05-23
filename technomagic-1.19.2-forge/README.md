@@ -1,15 +1,15 @@
 # TechnoMagic Modpack for Minecraft Forge 1.19.2
 
 > [!WARNING]
-> Some mods may conflict with <kbd>**OptiFine**</kbd>. Therefore, this pack uses <kbd>**Embeddium**</kbd> and <kbd>**Oculus**</kbd> instead. For the pack to work correctly, launch Minecraft on <kbd>**Forge**</kbd> version <kbd>**1.19.2**</kbd> without <kbd>**OptiFine**</kbd>.
+> Some mods may conflict with <kbd>**OptiFine**</kbd>. Therefore, this modpack uses <kbd>**Embeddium**</kbd> and <kbd>**Oculus**</kbd> instead. For the modpack to work correctly, launch Minecraft on <kbd>**Forge**</kbd> version <kbd>**1.19.2**</kbd> without <kbd>**OptiFine**</kbd>.
 
 ## Installation
 
-Mods in this modpack are divided into <kbd>**client-side**</kbd> and <kbd>**server-side**</kbd> for easier and faster installation. The archive with the mods can be downloaded from the [releases][releases].
+Mods in this modpack are divided into <kbd>**client-side**</kbd> and <kbd>**server-side**</kbd> for easier and faster installation. The archive with the mods can be downloaded from the [**releases**][releases].
 
 ### Client-side
 
-If you're playing in single-player mode, you need to install only <kbd>**client-side**</kbd> mods, the archive with which can be downloaded from the [releases][releases]. The contents of the archive should be placed in the <kbd>**root**</kbd> folder of your launcher.
+If you're playing in single-player mode, you need to install only <kbd>**client-side**</kbd> mods, the archive with which can be downloaded from the [**releases**][releases]. The contents of the archive should be placed in the <kbd>**root**</kbd> folder of your launcher.
 
 <kbd>**Client-side**</kbd> mods, divided into <kbd>**mods**</kbd> and <kbd>**libs**</kbd>, are located in this repository at the following path:
 
@@ -26,9 +26,9 @@ modpack
 
 ### Server-side
 
-If you're playing on your own server, you'll also need to install mods on the server, the archive with which can be downloaded from the [releases][releases]. The contents of the archive should be placed in the <kbd>**root**</kbd> folder of your server.
+If you're playing on your own server, you'll also need to install mods on the server, the archive with which can be downloaded from the [**releases**][releases]. The contents of the archive should be placed in the <kbd>**root**</kbd> folder of your server.
 
-Some mods are visual and do not require installation on the server, while others may cause errors. To save you from manually removing unnecessary <kbd>**client-side**</kbd> mods, I've done this for you and placed the archive with <kbd>**server-side**</kbd> mods in the [release][releases].
+Some mods are visual and do not require installation on the server, while others may cause errors. To save you from manually removing unnecessary <kbd>**client-side**</kbd> mods, I've done this for you and placed the archive with <kbd>**server-side**</kbd> mods in the [**release**][releases].
 
 <kbd>**Server-side**</kbd> mods, divided into <kbd>**mods**</kbd> and <kbd>**libs**</kbd>, are located in this repository at the following path:
 
@@ -43,7 +43,7 @@ modpack
         └── ...
 ```
 
-> _Don't forget to install mods on your computer as indicated in the <kbd>[**_Client-side_**](#client-side)</kbd> installation section._
+> **_Don't forget to install mods on your computer as indicated in the <kbd>[**_Client-side_**](#client-side)</kbd> installation section._**
 
 ## Tables of modifications <kbd>**74**</kbd>
 
@@ -56,7 +56,7 @@ Each table provides the following information:
 - **`used by:`** If it's a lib, the mods that use it are listed here.
 - **`installation side:`** Indicates whether the mod is intended for the <kbd>**client-side**</kbd> or <kbd>**server-side**</kbd>.
 
-This structure allows users to tailor the pack to their needs.
+This structure allows users to tailor the modpack to their preferences.
 
 ### Mods <kbd>**56**</kbd>
 
