@@ -5,17 +5,17 @@
 
 ## Installation
 
-The mods in this pack are divided into <kbd>**client-side**</kbd> and <kbd>**server-side**</kbd> for easier and faster installation.
+Mods in this modpack are divided into <kbd>**client-side**</kbd> and <kbd>**server-side**</kbd> for easier and faster installation. The archive with the mods can be downloaded from the [releases][releases].
 
 ### Client-side
 
-If you're playing in single-player mode, you only need to install <kbd>**client-side**</kbd> mods. These mods should be placed in the <kbd>**mods**</kbd> folder, which is usually located in the root folder of your launcher. _For more detailed information, refer to your launcher's documentation._
+If you're playing in single-player mode, you need to install only <kbd>**client-side**</kbd> mods, the archive with which can be downloaded from the [releases][releases]. The contents of the archive should be placed in the <kbd>**root**</kbd> folder of your launcher.
 
-<kbd>**Client-side**</kbd> mods are located in this repository at the following path:
+<kbd>**Client-side**</kbd> mods, divided into <kbd>**mods**</kbd> and <kbd>**libs**</kbd>, are located in this repository at the following path:
 
 ```
 modpack
-└── client
+└── client-side
     ├── libs
     │   ├── lib.jar
     │   └── ...
@@ -23,18 +23,18 @@ modpack
         ├── mod.jar
         └── ...
 ```
-
-> You need to move the files from the <kbd>**mods**</kbd> and <kbd>**libs**</kbd> folders to the <kbd>**mods**</kbd> folder of your launcher.
 
 ### Server-side
 
-If you're playing on your own server, you'll also need to install mods on the server. Some mods are visual and don't require installation on the server, and some may cause errors. To save you from manually removing <kbd>**client-side**</kbd> mods, I've already done it for you and placed them in a separate folder.
+If you're playing on your own server, you'll also need to install mods on the server, the archive with which can be downloaded from the [releases][releases]. The contents of the archive should be placed in the <kbd>**root**</kbd> folder of your server.
 
-<kbd>**Server-side**</kbd> mods are located in this repository at the following path:
+Some mods are visual and do not require installation on the server, while others may cause errors. To save you from manually removing unnecessary <kbd>**client-side**</kbd> mods, I've done this for you and placed the archive with <kbd>**server-side**</kbd> mods in the [release][releases].
+
+<kbd>**Server-side**</kbd> mods, divided into <kbd>**mods**</kbd> and <kbd>**libs**</kbd>, are located in this repository at the following path:
 
 ```
 modpack
-└── server
+└── server-side
     ├── libs
     │   ├── lib.jar
     │   └── ...
@@ -43,105 +43,108 @@ modpack
         └── ...
 ```
 
-> You need to move the files from the <kbd>**mods**</kbd> and <kbd>**libs**</kbd> folders to the <kbd>**mods**</kbd> folder of your server.
->> _Don't forget to install mods on your computer as indicated in the <kbd>**_Client-side_**</kbd> installation section._
+> _Don't forget to install mods on your computer as indicated in the <kbd>[**_Client-side_**](#client-side)</kbd> installation section._
 
 ## Tables of modifications <kbd>**74**</kbd>
 
-In this section, all mods included in this pack, both <kbd>**client-side**</kbd> and <kbd>**server-side**</kbd>, are presented. The mods are organized into two tables: <kbd>**Mods**</kbd> and <kbd>**Libs**</kbd>. This provides a convenient overview of dependencies and allows for easy removal of unwanted mods and their associated libraries.
+In this section, all mods included in this modpack, both <kbd>**client-side**</kbd> and <kbd>**server-side**</kbd>, are presented. The mods are organized into two tables: <kbd>**Mods**</kbd> and <kbd>**Libs**</kbd>. This provides a convenient overview of dependencies and allows for easy removal of unwanted mods and their associated libs.
 
 Each table provides the following information:
 
-- **`Mod Name:`** The name of the mod or library.
-- **`Mod Dependencies:`** Other mods or libraries that this mod requires to function.
-- **`Mods Using the Library:`** If it’s a library, the mods that use it are listed here.
-- **`Mod Installation Side:`** Indicates whether the mod is intended for the <kbd>**client-side**</kbd> or <kbd>**server-side**</kbd>.
+- **`name:`** The name of the mod or lib.
+- **`dependencies:`** Other mods or libs that this mod requires to function.
+- **`used by:`** If it's a lib, the mods that use it are listed here.
+- **`installation side:`** Indicates whether the mod is intended for the <kbd>**client-side**</kbd> or <kbd>**server-side**</kbd>.
 
 This structure allows users to tailor the pack to their needs.
 
 ### Mods <kbd>**56**</kbd>
 
-| **name** | **dependencies** | **installation side** |
-|----------|------------------|-----------------------|
-| [**Advanced Solars Classic**][advanced-solars-classic] | <kbd>[**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic]</kbd> | `client and server` |
-| [**Alex's Mobs**][alexs-mobs] | <kbd>[**Citadel**][citadel]</kbd> | `client and server` |
-| [**AmbientSounds**][ambientsounds] | <kbd>[**CreativeCore**][creativecore]</kbd> | `client` |
-| [**Apotheosis**][apotheosis] | <kbd>[**Patchouli**][patchouli], [**Placebo**][placebo]</kbd> | `client and server` |
-| [**Applied Energistics 2 (AE2)**][ae2] | <kbd>_none_</kbd> | `client and server` |
-| [**Applied Energistics 2 Things<br>(AE2 Things)**][ae2-things] | <kbd>[**Applied Energistics 2 (AE2)**][ae2]</kbd> | `client and server` |
-| [**Better Combat**][better-combat] | <kbd>[**Cloth Config API**][cloth-config-api],<br><br>[**playerAnimator**][playeranimator]</kbd> | `client and server` |
-| [**Better Third Person**][better-third-person] | <kbd>_none_</kbd> | `client` |
-| [**Biomes O' Plenty**][biomes-o-plenty] | <kbd>[**TerraBlender**][terrablender]</kbd> | `client and server` |
-| [**Bushier Flowers**][bushier-flowers] | <kbd>_none_</kbd> | `client and server` |
-| [**Carry On**][carry-on] | <kbd>_none_</kbd> | `client and server` |
-| [**ChoiceTheorem's<br>Overhauled Village<br>(CTOV)**][ctov] | <kbd>_none_</kbd> | `client and server` |
-| [**Cosmetic Armor Reworked**][cosmetic-armor-reworked] | <kbd>_none_</kbd> | `client and server` |
-| [**Embeddium**][embeddium] | <kbd>_none_</kbd> | `client` |
-| [**Embeddium Extra**][embeddium-extra] | <kbd>[**Embeddium**][embeddium]</kbd> | `client` |
-| [**Embeddium Extras**][embeddium-extras] | <kbd>[**Embeddium**][embeddium]</kbd> | `client` |
-| [**Epic Knights: Shields,<br>Armor and Weapons<br>(Epic Knights)**][epic-knights] | <kbd>[**Architectury API**][architectury-api],<br><br>[**Cloth Config API**][cloth-config-api]</kbd> | `client and server` |
-| [**Farmer's Delight**][farmers-delight] | <kbd>_none_</kbd> | `client and server` |
-| [**First-person Model**][first-person-model] | <kbd>[**Not Enough Animations**][not-enough-animations]</kbd> | `client` |
-| [**Gravisuit Classic**][gravisuit-classic] | <kbd>[**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic]</kbd> | `client and server` |
-| [**Guard Villagers**][guard-villagers] | <kbd>_none_</kbd> | `client and server` |
-| [**HT's TreeChop**][hts-treechop] | <kbd>_none_</kbd> | `client and server` |
-| [**Ice and Fire: Dragons<br>(Ice and Fire)**][ice-and-fire] | <kbd>[**Citadel**][citadel]</kbd> | `client and server` |
-| [**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic] | <kbd>[**Curios API**][curios-api]</kbd> | `client and server` |
-| [**Industrial Craft 2 Classic<br>UU-Matter<br>(IC2C UU-Matter)**][ic2-classic-uu-matter] | <kbd>[**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic],<br><br>[**Just Enough Items (JEI)**][jei]</kbd> | `client and server` |
-| [**Inventory HUD+**][inventory-hud] | <kbd>_none_</kbd> | `client` |
-| [**Inventory Profiles Next (IPN)**][ipn] | <kbd>[**Kotlin**][kotlin], [**libIPN**][libipn]</kbd> | `client` |
-| [**Iron Chests**][iron-chests] | <kbd>_none_</kbd> | `client and server` |
-| [**Iron's Spells 'n Spellbooks<br>(Iron's Spellbooks)**][irons-spellbooks] | <kbd>[**Caelus API**][caelus-api], [**Curios API**][curios-api],<br><br>[**GeckoLib**][geckolib], [**playerAnimator**][playeranimator]</kbd> | `client and server` |
-| [**Item Borders**][item-borders] | <kbd>[**Iceberg**][iceberg], [**Prism**][prism]</kbd> | `client` |
-| [**ItemPhysic Full**][itemphysic-full] | <kbd>[**CreativeCore**][creativecore]</kbd> | `client and server` |
-| [**Just Enough Items (JEI)**][jei] | <kbd>_none_</kbd> | `client and server` |
-| [**Just Enough Resources (JER)**][jer] | <kbd>[**Just Enough Items (JEI)**][jei]</kbd> | `client and server` |
-| [**Legendary Tooltips**][legendary-tooltips] | <kbd>[**Iceberg**][iceberg], [**Prism**][prism]</kbd> | `client` |
-| [**Light Overlay**][light-overlay] | <kbd>[**Architectury API**][architectury-api],<br><br>[**Cloth Config API**][cloth-config-api]</kbd> | `client` |
-| [**Lootr**][lootr] | <kbd>_none_</kbd> | `client and server` |
-| [**Model Gap Fix**][model-gap-fix] | <kbd>_none_</kbd> | `client` |
-| [**Mouse Tweaks**][mouse-tweaks] | <kbd>_none_</kbd> | `client` |
-| [**MrCrayfish's Furniture Mod<br>(CFM)**][cfm] | <kbd>_none_</kbd> | `client and server` |
-| [**Not Enough Animations**][not-enough-animations] | <kbd>_none_</kbd> | `client` |
-| [**Oculus**][oculus] | <kbd>[**Embeddium**][embeddium]</kbd> | `client` |
-| [**OpenBlocks Elevator<br>(Elevatorid)**][elevatorid] | <kbd>_none_</kbd> | `client and server` |
-| [**Packed Up**][packed-up] | <kbd>[**SuperMartijn642's Config Lib**][supermartijn642s-config-lib],<br><br>[**SuperMartijn642's Core Lib**][supermartijn642s-core-lib]</kbd> | `client and server` |
-| [**Serene Seasons**][serene-seasons] | <kbd>_none_</kbd> | `client and server` |
-| [**Simply Swords**][simply-swords] | <kbd>[**Architectury API**][architectury-api],<br><br>[**Cloth Config API**][cloth-config-api]</kbd> | `client and server` |
-| [**Skin Layers 3D**][skin-layers-3d] | <kbd>_none_</kbd> | `client` |
-| [**Spells & Shields**][spells-shields] | <kbd>_none_</kbd> | `client and server` |
-| [**TexTrue's Embeddium Options**][textrues-embeddium-options] | <kbd>[**Embeddium**][embeddium]</kbd> | `client` |
-| [**The One Probe**][the-one-probe] | <kbd>_none_</kbd> | `client and server` |
-| [**The Twilight Forest**][the-twilight-forest] | <kbd>_none_</kbd> | `client and server` |
-| [**Towns and Towers**][towns-and-towers] | <kbd>_none_</kbd> | `client and server` |
-| [**Vampirism**][vampirism] | <kbd>_none_</kbd> | `client and server` |
-| [**Werewolves**][werewolves] | <kbd>[**Vampirism**][vampirism]</kbd> | `client and server` |
-| [**Xaero's Minimap**][xaeros-minimap] | <kbd>_none_</kbd> | `client and server` |
-| [**Xaero's World Map**][xaeros-world-map] | <kbd>_none_</kbd> | `client and server` |
-| [**YDM's Weapon Master**][ydms-weapon-master] | <kbd>_none_</kbd> | `client and server` |
+[comment]: # (For convenient reading of tables in this file, disable word wrap.)
+
+| **name**                                                                                 | **dependencies**                                                                                                                               | **installation side** |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| [**Advanced Solars Classic**][advanced-solars-classic]                                   | <kbd>[**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic]</kbd>                                                                      | `client and server`   |
+| [**Alex's Mobs**][alexs-mobs]                                                            | <kbd>[**Citadel**][citadel]</kbd>                                                                                                              | `client and server`   |
+| [**AmbientSounds**][ambientsounds]                                                       | <kbd>[**CreativeCore**][creativecore]</kbd>                                                                                                    | `client`              |
+| [**Apotheosis**][apotheosis]                                                             | <kbd>[**Patchouli**][patchouli], [**Placebo**][placebo]</kbd>                                                                                  | `client and server`   |
+| [**Applied Energistics 2 (AE2)**][ae2]                                                   | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Applied Energistics 2 Things<br>(AE2 Things)**][ae2-things]                           | <kbd>[**Applied Energistics 2 (AE2)**][ae2]</kbd>                                                                                              | `client and server`   |
+| [**Better Combat**][better-combat]                                                       | <kbd>[**Cloth Config API**][cloth-config-api],<br><br>[**playerAnimator**][playeranimator]</kbd>                                               | `client and server`   |
+| [**Better Third Person**][better-third-person]                                           | <kbd>_none_</kbd>                                                                                                                              | `client`              |
+| [**Biomes O' Plenty**][biomes-o-plenty]                                                  | <kbd>[**TerraBlender**][terrablender]</kbd>                                                                                                    | `client and server`   |
+| [**Bushier Flowers**][bushier-flowers]                                                   | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Carry On**][carry-on]                                                                 | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**ChoiceTheorem's<br>Overhauled Village<br>(CTOV)**][ctov]                              | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Cosmetic Armor Reworked**][cosmetic-armor-reworked]                                   | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Embeddium**][embeddium]                                                               | <kbd>_none_</kbd>                                                                                                                              | `client`              |
+| [**Embeddium Extra**][embeddium-extra]                                                   | <kbd>[**Embeddium**][embeddium]</kbd>                                                                                                          | `client`              |
+| [**Embeddium Extras**][embeddium-extras]                                                 | <kbd>[**Embeddium**][embeddium]</kbd>                                                                                                          | `client`              |
+| [**Epic Knights: Shields,<br>Armor and Weapons<br>(Epic Knights)**][epic-knights]        | <kbd>[**Architectury API**][architectury-api],<br><br>[**Cloth Config API**][cloth-config-api]</kbd>                                           | `client and server`   |
+| [**Farmer's Delight**][farmers-delight]                                                  | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**First-person Model**][first-person-model]                                             | <kbd>[**Not Enough Animations**][not-enough-animations]</kbd>                                                                                  | `client`              |
+| [**Gravisuit Classic**][gravisuit-classic]                                               | <kbd>[**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic]</kbd>                                                                      | `client and server`   |
+| [**Guard Villagers**][guard-villagers]                                                   | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**HT's TreeChop**][hts-treechop]                                                        | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Ice and Fire: Dragons<br>(Ice and Fire)**][ice-and-fire]                              | <kbd>[**Citadel**][citadel]</kbd>                                                                                                              | `client and server`   |
+| [**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic]                           | <kbd>[**Curios API**][curios-api]</kbd>                                                                                                        | `client and server`   |
+| [**Industrial Craft 2 Classic<br>UU-Matter<br>(IC2C UU-Matter)**][ic2-classic-uu-matter] | <kbd>[**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic],<br><br>[**Just Enough Items (JEI)**][jei]</kbd>                           | `client and server`   |
+| [**Inventory HUD+**][inventory-hud]                                                      | <kbd>_none_</kbd>                                                                                                                              | `client`              |
+| [**Inventory Profiles Next (IPN)**][ipn]                                                 | <kbd>[**Kotlin**][kotlin], [**libIPN**][libipn]</kbd>                                                                                          | `client`              |
+| [**Iron Chests**][iron-chests]                                                           | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Iron's Spells 'n Spellbooks<br>(Iron's Spellbooks)**][irons-spellbooks]               | <kbd>[**Caelus API**][caelus-api], [**Curios API**][curios-api],<br><br>[**GeckoLib**][geckolib], [**playerAnimator**][playeranimator]</kbd>   | `client and server`   |
+| [**Item Borders**][item-borders]                                                         | <kbd>[**Iceberg**][iceberg], [**Prism**][prism]</kbd>                                                                                          | `client`              |
+| [**ItemPhysic Full**][itemphysic-full]                                                   | <kbd>[**CreativeCore**][creativecore]</kbd>                                                                                                    | `client and server`   |
+| [**Just Enough Items (JEI)**][jei]                                                       | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Just Enough Resources (JER)**][jer]                                                   | <kbd>[**Just Enough Items (JEI)**][jei]</kbd>                                                                                                  | `client and server`   |
+| [**Legendary Tooltips**][legendary-tooltips]                                             | <kbd>[**Iceberg**][iceberg], [**Prism**][prism]</kbd>                                                                                          | `client`              |
+| [**Light Overlay**][light-overlay]                                                       | <kbd>[**Architectury API**][architectury-api],<br><br>[**Cloth Config API**][cloth-config-api]</kbd>                                           | `client`              |
+| [**Lootr**][lootr]                                                                       | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Model Gap Fix**][model-gap-fix]                                                       | <kbd>_none_</kbd>                                                                                                                              | `client`              |
+| [**Mouse Tweaks**][mouse-tweaks]                                                         | <kbd>_none_</kbd>                                                                                                                              | `client`              |
+| [**MrCrayfish's Furniture Mod<br>(CFM)**][cfm]                                           | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Not Enough Animations**][not-enough-animations]                                       | <kbd>_none_</kbd>                                                                                                                              | `client`              |
+| [**Oculus**][oculus]                                                                     | <kbd>[**Embeddium**][embeddium]</kbd>                                                                                                          | `client`              |
+| [**OpenBlocks Elevator<br>(Elevatorid)**][elevatorid]                                    | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Packed Up**][packed-up]                                                               | <kbd>[**SuperMartijn642's Config Lib**][supermartijn642s-config-lib],<br><br>[**SuperMartijn642's Core Lib**][supermartijn642s-core-lib]</kbd> | `client and server`   |
+| [**Serene Seasons**][serene-seasons]                                                     | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Simply Swords**][simply-swords]                                                       | <kbd>[**Architectury API**][architectury-api],<br><br>[**Cloth Config API**][cloth-config-api]</kbd>                                           | `client and server`   |
+| [**Skin Layers 3D**][skin-layers-3d]                                                     | <kbd>_none_</kbd>                                                                                                                              | `client`              |
+| [**Spells & Shields**][spells-shields]                                                   | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**TexTrue's Embeddium Options**][textrues-embeddium-options]                            | <kbd>[**Embeddium**][embeddium]</kbd>                                                                                                          | `client`              |
+| [**The One Probe**][the-one-probe]                                                       | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**The Twilight Forest**][the-twilight-forest]                                           | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Towns and Towers**][towns-and-towers]                                                 | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Vampirism**][vampirism]                                                               | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Werewolves**][werewolves]                                                             | <kbd>[**Vampirism**][vampirism]</kbd>                                                                                                          | `client and server`   |
+| [**Xaero's Minimap**][xaeros-minimap]                                                    | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**Xaero's World Map**][xaeros-world-map]                                                | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
+| [**YDM's Weapon Master**][ydms-weapon-master]                                            | <kbd>_none_</kbd>                                                                                                                              | `client and server`   |
 
 ### Libs <kbd>**18**</kbd>
 
-| **name** | **used by** | **installation side** |
-|----------|-------------|-----------------------|
-| [**Architectury API**][architectury-api] | <kbd>[**Epic Knights: Shields,<br>Armor and Weapons<br>(Epic Knights)**][epic-knights],<br><br>[**Light Overlay**][light-overlay],<br><br>[**Simply Swords**][simply-swords]</kbd> | `client and server` |
-| [**Caelus API**][caelus-api] | <kbd>[**Iron's Spells 'n Spellbooks<br>(Iron's Spellbooks)**][irons-spellbooks]</kbd> | `client and server` |
-| [**Citadel**][citadel] | <kbd>[**Alex's Mobs**][alexs-mobs],<br><br>[**Ice and Fire: Dragons<br>(Ice and Fire)**][ice-and-fire]</kbd> | `client and server` |
-| [**Cloth Config API**][cloth-config-api] | <kbd>[**Better Combat**][better-combat],<br><br>[**Epic Knights: Shields,<br>Armor and Weapons<br>(Epic Knights)**][epic-knights],<br><br>[**Light Overlay**][light-overlay],<br><br>[**Simply Swords**][simply-swords]</kbd> | `client and server` |
-| [**CreativeCore**][creativecore] | <kbd>[**AmbientSounds**][ambientsounds],<br><br>[**ItemPhysic Full**][itemphysic-full]</kbd> | `client and server` |
-| [**Curios API**][curios-api] | <kbd>[**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic],<br><br>[**Iron's Spells 'n Spellbooks<br>(Iron's Spellbooks)**][irons-spellbooks]</kbd> | `client and server` |
-| [**GeckoLib**][geckolib] | <kbd>[**Iron's Spells 'n Spellbooks<br>(Iron's Spellbooks)**][irons-spellbooks]</kbd> | `client and server` |
-| [**Guide-API Village and Pillage<br>(Guide-API-VP)**][guide-api-vp] | <kbd>[**Vampirism**][vampirism],<br><br>[**Werewolves**][werewolves]</kbd> | `client and server` |
-| [**Iceberg**][iceberg] | <kbd>[**Item Borders**][item-borders],<br><br>[**Legendary Tooltips**][legendary-tooltips]</kbd> | `client` |
-| [**Kotlin**][kotlin] | <kbd>[**Inventory Profiles Next (IPN)**][ipn]</kbd> | `client` |
-| [**libIPN**][libipn] | <kbd>[**Inventory Profiles Next (IPN)**][ipn]</kbd> | `client` |
-| [**Patchouli**][patchouli] | <kbd>[**Apotheosis**][apotheosis]</kbd> | `client and server` |
-| [**Placebo**][placebo] | <kbd>[**Apotheosis**][apotheosis]</kbd> | `client and server` |
-| [**playerAnimator**][playeranimator] | <kbd>[**Better Combat**][better-combat],<br><br>[**Iron's Spells 'n Spellbooks<br>(Iron's Spellbooks)**][irons-spellbooks]</kbd> | `client and server` |
-| [**Prism**][prism] | <kbd>[**Item Borders**][item-borders],<br><br>[**Legendary Tooltips**][legendary-tooltips]</kbd> | `client` |
-| [**SuperMartijn642's Config Lib**][supermartijn642s-config-lib] | <kbd>[**Packed Up**][packed-up]</kbd> | `client and server` |
-| [**SuperMartijn642's Core Lib**][supermartijn642s-core-lib] | <kbd>[**Packed Up**][packed-up]</kbd> | `client and server` |
-| [**TerraBlender**][terrablender] | <kbd>[**Biomes O' Plenty**][biomes-o-plenty]</kbd> | `client and server` |
+[comment]: # (For convenient reading of tables in this file, disable word wrap.)
+
+| **name**                                                            | **used by**                                                                                                                                                                                                                   | **installation side** |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| [**Architectury API**][architectury-api]                            | <kbd>[**Epic Knights: Shields,<br>Armor and Weapons<br>(Epic Knights)**][epic-knights],<br><br>[**Light Overlay**][light-overlay],<br><br>[**Simply Swords**][simply-swords]</kbd>                                            | `client and server`   |
+| [**Caelus API**][caelus-api]                                        | <kbd>[**Iron's Spells 'n Spellbooks<br>(Iron's Spellbooks)**][irons-spellbooks]</kbd>                                                                                                                                         | `client and server`   |
+| [**Citadel**][citadel]                                              | <kbd>[**Alex's Mobs**][alexs-mobs],<br><br>[**Ice and Fire: Dragons<br>(Ice and Fire)**][ice-and-fire]</kbd>                                                                                                                  | `client and server`   |
+| [**Cloth Config API**][cloth-config-api]                            | <kbd>[**Better Combat**][better-combat],<br><br>[**Epic Knights: Shields,<br>Armor and Weapons<br>(Epic Knights)**][epic-knights],<br><br>[**Light Overlay**][light-overlay],<br><br>[**Simply Swords**][simply-swords]</kbd> | `client and server`   |
+| [**CreativeCore**][creativecore]                                    | <kbd>[**AmbientSounds**][ambientsounds],<br><br>[**ItemPhysic Full**][itemphysic-full]</kbd>                                                                                                                                  | `client and server`   |
+| [**Curios API**][curios-api]                                        | <kbd>[**Industrial Craft 2 Classic<br>(IC2 Classic)**][ic2-classic],<br><br>[**Iron's Spells 'n Spellbooks<br>(Iron's Spellbooks)**][irons-spellbooks]</kbd>                                                                  | `client and server`   |
+| [**GeckoLib**][geckolib]                                            | <kbd>[**Iron's Spells 'n Spellbooks<br>(Iron's Spellbooks)**][irons-spellbooks]</kbd>                                                                                                                                         | `client and server`   |
+| [**Guide-API Village and Pillage<br>(Guide-API-VP)**][guide-api-vp] | <kbd>[**Vampirism**][vampirism],<br><br>[**Werewolves**][werewolves]</kbd>                                                                                                                                                    | `client and server`   |
+| [**Iceberg**][iceberg]                                              | <kbd>[**Item Borders**][item-borders],<br><br>[**Legendary Tooltips**][legendary-tooltips]</kbd>                                                                                                                              | `client`              |
+| [**Kotlin**][kotlin]                                                | <kbd>[**Inventory Profiles Next (IPN)**][ipn]</kbd>                                                                                                                                                                           | `client`              |
+| [**libIPN**][libipn]                                                | <kbd>[**Inventory Profiles Next (IPN)**][ipn]</kbd>                                                                                                                                                                           | `client`              |
+| [**Patchouli**][patchouli]                                          | <kbd>[**Apotheosis**][apotheosis]</kbd>                                                                                                                                                                                       | `client and server`   |
+| [**Placebo**][placebo]                                              | <kbd>[**Apotheosis**][apotheosis]</kbd>                                                                                                                                                                                       | `client and server`   |
+| [**playerAnimator**][playeranimator]                                | <kbd>[**Better Combat**][better-combat],<br><br>[**Iron's Spells 'n Spellbooks<br>(Iron's Spellbooks)**][irons-spellbooks]</kbd>                                                                                              | `client and server`   |
+| [**Prism**][prism]                                                  | <kbd>[**Item Borders**][item-borders],<br><br>[**Legendary Tooltips**][legendary-tooltips]</kbd>                                                                                                                              | `client`              |
+| [**SuperMartijn642's Config Lib**][supermartijn642s-config-lib]     | <kbd>[**Packed Up**][packed-up]</kbd>                                                                                                                                                                                         | `client and server`   |
+| [**SuperMartijn642's Core Lib**][supermartijn642s-core-lib]         | <kbd>[**Packed Up**][packed-up]</kbd>                                                                                                                                                                                         | `client and server`   |
+| [**TerraBlender**][terrablender]                                    | <kbd>[**Biomes O' Plenty**][biomes-o-plenty]</kbd>                                                                                                                                                                            | `client and server`   |
 
 
 [advanced-solars-classic]: https://www.curseforge.com/minecraft/mc-mods/advanced-solars-classic
@@ -219,3 +222,5 @@ This structure allows users to tailor the pack to their needs.
 [supermartijn642s-config-lib]: https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib
 [supermartijn642s-core-lib]: https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib
 [terrablender]: https://www.curseforge.com/minecraft/mc-mods/terrablender
+
+[releases]: https://github.com/iwdath/mc-modpacks/releases
