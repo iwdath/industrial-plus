@@ -186,5 +186,5 @@ This structure allows users to tailor the modpack to their preferences.
 [supermartijn642s-core-lib]: https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib
 [terrablender]: https://www.curseforge.com/minecraft/mc-mods/terrablender
 
-[releases]: https://github.com/iwdath/mc-industrial-modpack-forge-1.19.2/releases
+[releases]: https://github.com/iwdath/industrial-modpack-forge-mc1.19.2/releases
 [forge]: https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html
