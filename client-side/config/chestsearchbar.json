@@ -1,0 +1,25 @@
+{
+  "keepSearch": {
+    "keepSearch": false
+  },
+  "autoFocus": {
+    "autoFocus": false
+  },
+  "detachSearchBar": {
+    "detachSearchBar": true
+  },
+  "vanillaContainerMode": {
+    "description": "Mode for minecraft containers. 0 = Disabled.",
+    "vanillaContainerMode": 2
+  },
+  "modePerScreen": {
+    "description": "Mode for each screen. 0 = Disabled.",
+    "modePerScreen": {
+      "compasses.expandedstorage.impl.client.gui.PageScreen": 2,
+      "com.progwml6.ironchest.client.screen.IronChestScreen": 2,
+      "appeng.client.gui.implementations.SkyChestScreen": 2,
+      "compasses.expandedstorage.impl.client.gui.SingleScreen": 2,
+      "fuzs.netherchested.client.gui.screens.inventory.NetherChestScreen": 2
+    }
+  }
+}
