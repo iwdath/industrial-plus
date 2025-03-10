@@ -169,7 +169,7 @@ key_key.jei.toggleCheatModeConfigButton:key.keyboard.unknown
 key_key.jei.toggleCheatMode:key.keyboard.unknown
 key_key.chestsearchbar.toggleSearchBarKey:key.keyboard.unknown
 key_key.configured.open_mod_list:key.keyboard.unknown
-key_key.plasmovoice.settings:key.keyboard.v
+key_key.plasmovoice.settings:key.keyboard.backslash
 key_key.zoom:key.keyboard.c
 key_key.special_ability:key.keyboard.h
 key_keybinds.bettercombat.feint:key.keyboard.unknown
