@@ -1,0 +1,73 @@
+name: Release Modpack on Version Change
+
+on:
+  push:
+    paths:
+      - 'VERSION'
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Read version from file
+        id: get_version
+        run: echo "VERSION=$(cat VERSION | tr -d '\n')" >> $GITHUB_ENV
+
+      - name: Prepare Client Archive
+        run: |
+          mkdir -p client-temp/mods
+          cp -r client-side/options.txt client-temp/ || true
+          cp -r client-side/config client-temp/ || true
+          cp -r client-side/resourcepacks client-temp/ || true
+          cp -r client-side/shaderpacks client-temp/ || true
+          cp -r client-side/libs/* client-temp/mods/ || true
+          cp -r client-side/mods/* client-temp/mods/ || true
+          (cd client-temp && zip -r "../Client-Side-Industrial+-${{ env.VERSION }}-Forge-mc1.19.2.zip" .)
+
+      - name: Prepare Server Archive
+        run: |
+          mkdir -p server-temp/mods
+          cp -r server-side/config server-temp/ || true
+          cp -r server-side/libs/* server-temp/mods/ || true
+          cp -r server-side/mods/* server-temp/mods/ || true
+          (cd server-temp && zip -r "../Server-Side-Industrial+-${{ env.VERSION }}-Forge-mc1.19.2.zip" .)
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ env.VERSION }}
+          name: "Industrial+ [${{ env.VERSION }}] Forge mc1.19.2"
+          body: |
+            ## Client-Side Installation
+
+            If you're playing in single-player mode, you only need to install <kbd>**client-side**</kbd> mods:
+
+            1. Make sure you have the appropriate version of Minecraft <kbd>**Forge**</kbd> installed. If <kbd>**Forge**</kbd> is not installed, download the [**installer**][forge] and select the <kbd>**Install Client**</kbd> option.
+            2. Download the <kbd>**client-side**</kbd> modpack and extract its contents into the game directory:
+               - **`Windows:`** <kbd>**%appdata%\\.minecraft\\**</kbd>
+               - **`macOS:`** <kbd>**~/Library/Application Support/minecraft/**</kbd>
+               - **`Linux:`** <kbd>**~/.minecraft/**</kbd>
+            3. Launch the Minecraft launcher, select the <kbd>**Forge**</kbd> profile, and click <kbd>**Play**</kbd>.
+
+            ## Server-Side Installation
+
+            If you're playing on your own server, you'll also need to install mods on the server:
+
+            1. Make sure your server has the appropriate version of Minecraft <kbd>**Forge**</kbd> installed. If <kbd>**Forge**</kbd> is not installed, download the [**installer**][forge] and select the <kbd>**Install Server**</kbd> option.
+            2. Download the <kbd>**server-side**</kbd> modpack and extract its contents into the server's root directory, where <kbd>**server.jar**</kbd> and other files are located.
+            3. Start the server and check that it runs without errors and all mods load correctly.
+
+            [forge]: https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html
+          draft: false
+          prerelease: false
+          files: |
+            Client-Side-Industrial+-${{ env.VERSION }}-Forge-mc1.19.2.zip
+            Server-Side-Industrial+-${{ env.VERSION }}-Forge-mc1.19.2.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
