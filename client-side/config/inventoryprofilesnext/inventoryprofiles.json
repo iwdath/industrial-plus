@@ -35,6 +35,13 @@
         "tool_max_durability_threshold": 363,
         "number_of_notifications": 1
     },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": ""
+            }
+        }
+    },
     "Tweaks": {
         "prevent_close_gui_drop_item": {
             "value": true
