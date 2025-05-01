@@ -113,6 +113,10 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_[Forgery] Toggle/Hold Sprint:key.keyboard.unknown
 key_[Forgery] Toggle Stance:key.keyboard.unknown
+key_key.buildguide.openbuildguide:key.keyboard.right.bracket
+key_key.buildguide.toggleenable:key.keyboard.unknown
+key_key.buildguide.setorigin:key.keyboard.unknown
+key_key.buildguide.setglobalorigin:key.keyboard.unknown
 key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.toggle_felling:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown

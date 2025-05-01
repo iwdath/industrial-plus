@@ -62,9 +62,9 @@ modpack
 
 > **_Don't forget to install mods on your computer as indicated in the <kbd>[**_Client-side_**](#client-side)</kbd> installation section._**
 
-## Tables of Components <kbd>**165 + 14**</kbd>
+## Tables of Components <kbd>**166 + 14**</kbd>
 
-This section presents all components included in this modpack: <kbd>**140 [mods](#mods-140)**</kbd>, <kbd>**25 [libs](#libs-25)**</kbd>, and <kbd>**14 [resource packs](#resource-packs-14)**</kbd>. The components are organized into three tables for better clarity and easier customization.
+This section presents all components included in this modpack: <kbd>**141 [mods](#mods-141)**</kbd>, <kbd>**25 [libs](#libs-25)**</kbd>, and <kbd>**14 [resource packs](#resource-packs-14)**</kbd>. The components are organized into three tables for better clarity and easier customization.
 
 Each table provides the following information:
 
@@ -75,7 +75,7 @@ Each table provides the following information:
 
 This structure allows users to customize the modpack according to their preferences by easily identifying dependencies and removing unnecessary components.
 
-### Mods <kbd>**140**</kbd>
+### Mods <kbd>**141**</kbd>
 
 <!-- To properly display the tables, disable word wrap in your editor -->
 | **name**                                                                                   | **dependencies**                                                                                                                                     | **installation side** |
@@ -101,6 +101,7 @@ This structure allows users to customize the modpack according to their preferen
 | [**BetterF3**][betterf3]                                                                   | <kbd>[**Cloth Config API**][cloth-config-api]</kbd>                                                                                                  | `client`              |
 | [**Biomes O' Plenty**][biomes-o-plenty]                                                    | <kbd>[**TerraBlender**][terrablender]</kbd>                                                                                                          | `client and server`   |
 | [**Boat Item View**][boat-item-view]                                                       | <kbd>_none_</kbd>                                                                                                                                    | `client`              |
+| [**Build Guide**][build-guide]                                                             | <kbd>_none_</kbd>                                                                                                                                    | `client`              |
 | [**Bushier Flowers**][bushier-flowers]                                                     | <kbd>_none_</kbd>                                                                                                                                    | `client and server`   |
 | [**CameraOverhaul**][cameraoverhaul]                                                       | <kbd>[**Cloth Config API**][cloth-config-api]</kbd>                                                                                                  | `client`              |
 | [**Carry On**][carry-on]                                                                   | <kbd>_none_</kbd>                                                                                                                                    | `client and server`   |
@@ -294,6 +295,7 @@ This structure allows users to customize the modpack according to their preferen
 [betterf3]: https://www.curseforge.com/minecraft/mc-mods/betterf3
 [biomes-o-plenty]: https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty
 [boat-item-view]: https://www.curseforge.com/minecraft/mc-mods/boat-item-view-forge
+[build-guide]: https://www.curseforge.com/minecraft/mc-mods/build-guide
 [bushier-flowers]: https://www.curseforge.com/minecraft/mc-mods/bushier-flowers
 [cameraoverhaul]: https://www.curseforge.com/minecraft/mc-mods/cameraoverhaul
 [carry-on]: https://www.curseforge.com/minecraft/mc-mods/carry-on
