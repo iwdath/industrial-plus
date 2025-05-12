@@ -5,11 +5,11 @@
 
 ## Description
 
-**`Industrial+`** is a carefully curated modpack designed to enhance the industrial gameplay experience in Minecraft while preserving the vanilla feel. It introduces advanced automation, resource processing, and engineering mechanics, providing players with powerful tools and technologies to streamline their gameplay.
+**`Industrial+`** is a modpack focused on expanding **`Minecraft’s`** industrial side without changing the core feel of the game. It adds systems for automation, resource processing, and engineering, giving players more ways to progress and optimize how they play.
 
-This modpack maintains a balance between complexity and accessibility, making it suitable for both experienced engineers and newcomers. Alongside industrial features, it also includes quality-of-life improvements, optimizations, and a selection of visual enhancements for a smoother and more immersive experience.
+The selection of mods is aimed at keeping things structured and approachable. Whether you're already familiar with tech mods or just getting into them, everything is arranged to make the experience smooth. Visual tweaks, performance improvements, and a few helpful additions are included to make gameplay more consistent and enjoyable.
 
-Whether you're constructing massive factories, automating resource production, or optimizing your workflow, **`Industrial+`** provides the perfect foundation for your industrial adventures.
+If you're into building factories, automating production chains, or simply want more depth without breaking the vanilla atmosphere, **`Industrial+`** is made for that.
 
 ## Installation
 
@@ -19,12 +19,12 @@ This modpack is structured into separate <kbd>**client-side**</kbd> and <kbd>**s
 
 If you're playing in single-player mode, you only need to install <kbd>**client-side**</kbd> mods:
 
-1. Make sure you have the appropriate version of Minecraft <kbd>**Forge**</kbd> installed. If <kbd>**Forge**</kbd> is not installed, download the [**installer**][forge] and select the <kbd>**Install Client**</kbd> option.
-2. Download the <kbd>**client-side**</kbd> [**modpack**][releases] and extract its contents into the game directory:
+1. Ensure the correct version of `Minecraft` <kbd>**Forge**</kbd> is installed. If not, download the [**installer**][forge], run it, and select the <kbd>**Install Client**</kbd> option.
+2. Download the <kbd>**client-side**</kbd> [**modpack**][releases] and extract it to your game directory:
    - **`Windows:`** <kbd>**%appdata%\\.minecraft\\**</kbd>
    - **`macOS:`** <kbd>**~/Library/Application Support/minecraft/**</kbd>
    - **`Linux:`** <kbd>**~/.minecraft/**</kbd>
-3. Launch the Minecraft launcher, select the <kbd>**Forge**</kbd> profile, and click <kbd>**Play**</kbd>.
+3. Open the `Minecraft` launcher, select the <kbd>**Forge**</kbd> profile, and click <kbd>**Play**</kbd>.
 
 <kbd>**Client-side**</kbd> mods, divided into <kbd>**mods**</kbd> and <kbd>**libs**</kbd>, are located in this repository at the following path:
 
@@ -41,11 +41,11 @@ modpack
 
 ### Server Side
 
-If you're playing on your own server, you'll also need to install mods on the server:
+If you're running your own server, you also need to install <kbd>**server-side**</kbd> mods:
 
-1. Make sure your server has the appropriate version of Minecraft <kbd>**Forge**</kbd> installed. If <kbd>**Forge**</kbd> is not installed, download the [**installer**][forge] and select the <kbd>**Install Server**</kbd> option.
-2. Download the <kbd>**server-side**</kbd> [**modpack**][releases] and extract its contents into the server's root directory, where <kbd>**server.jar**</kbd> and other files are located.
-3. Start the server and check that it runs without errors and all mods load correctly.
+1. Ensure the correct version of `Minecraft` <kbd>**Forge**</kbd> is installed on your server. If not, download the [**installer**][forge], run it, and select the <kbd>**Install Server**</kbd> option.
+2. Download the <kbd>**server-side**</kbd> [**modpack**][releases] and extract it to the server's root directory, where <kbd>**server.jar**</kbd> and other core files are located.
+3. Start the server and make sure it runs without errors and all mods load correctly.
 
 <kbd>**Server-side**</kbd> mods, divided into <kbd>**mods**</kbd> and <kbd>**libs**</kbd>, are located in this repository at the following path:
 
@@ -71,9 +71,9 @@ Each table provides the following information:
 - **`name:`** The name of the <kbd>**mod**</kbd>, <kbd>**lib**</kbd>, or <kbd>**resource pack**</kbd>.
 - **`dependencies:`** Other components required for proper functionality (if applicable).
 - **`used by:`** If it's a <kbd>**lib**</kbd>, this column lists the <kbd>**mods**</kbd> that depend on it.
-- **`installation side:`** Specifies whether the component is for <kbd>**client-side**</kbd>, <kbd>**server-side**</kbd>, or both.
+- **`installation side:`** Indicates if the component is for <kbd>**client-side**</kbd>, <kbd>**server-side**</kbd>, or both.
 
-This structure allows users to customize the modpack according to their preferences by easily identifying dependencies and removing unnecessary components.
+This structure helps users tailor the modpack to their needs by clearly showing dependencies and letting them skip components they don’t need.
 
 ### Mods <kbd>**141**</kbd>
 
