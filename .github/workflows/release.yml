@@ -19,6 +19,29 @@ jobs:
         id: get_version
         run: echo "VERSION=$(cat VERSION | tr -d '\n')" >> $GITHUB_ENV
 
+      - name: Extract Changelog for Current Version
+        id: extract_changelog
+        run: |
+          VERSION="${{ env.VERSION }}"
+          # Escape version string (v2.1.2 -> \\[v2.1.2\\])
+          ESCAPED_VERSION=$(printf '%s\n' "$VERSION" | sed 's/[][\.*^$(){}?+|/]/\\&/g')
+
+          # Extract the changelog section
+          awk "/## \[$ESCAPED_VERSION\]/ {flag=1; next} /^## \[/ {flag=0} flag" CHANGELOG.md > extracted.log
+
+          # Add details wrapper and escape properly
+          {
+            echo '---'
+            echo ''
+            echo '<details><summary>Changelog</summary>'
+            cat extracted.log
+            echo '</details>'
+          } > changelog_wrapped.md
+
+          echo "CHANGELOG_BODY<<EOF" >> $GITHUB_ENV
+          cat changelog_wrapped.md >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
       - name: Prepare Client Archive
         run: |
           mkdir -p client-temp/mods
@@ -62,6 +85,8 @@ jobs:
             1. Ensure the correct version of `Minecraft` <kbd>**Forge**</kbd> is installed on your server. If not, download the [**installer**][forge], run it, and select the <kbd>**Install Server**</kbd> option.
             2. Download the <kbd>**server-side**</kbd> modpack and extract it to the server's root directory, where <kbd>**server.jar**</kbd> and other core files are located.
             3. Start the server and make sure it runs without errors and all mods load correctly.
+
+            ${{ env.CHANGELOG_BODY }}
 
             [forge]: https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html
           draft: false
