@@ -1,5 +1,60 @@
 # Changelog
 
+## [v3.0.0] -
+
+### Added
+
+#### Mods
+
+- [**Accelerated Decay**](https://www.curseforge.com/minecraft/mc-mods/accelerated-decay) **`[v1.0.0]`**
+- [**AEInfinityBooster**](https://www.curseforge.com/minecraft/mc-mods/aeinfinitybooster) **`[v1.2.0 11]`**
+- [**AI Improvements**](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) **`[v0.5.2]`**
+- [**Applied Energistics 2 Wireless Terminals (AE2WTLib)**](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals) **`[v12.9.7]`**
+- [**AttributeFix**](https://www.curseforge.com/minecraft/mc-mods/attributefix) **`[v17.2.8]`**
+- [**Better Compatibility Checker**](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) **`[v1.0.10 build.50]`**
+- [**Blue Flame Burning**](https://www.curseforge.com/minecraft/mc-mods/blueflame) **`[v0.1.0.2]`**
+- [**Bridging Mod**](https://www.curseforge.com/minecraft/mc-mods/bridging-mod) **`[v2.1.1]`**
+- [**Clumps**](https://www.curseforge.com/minecraft/mc-mods/clumps) **`[v9.0.0 14]`**
+- [**Construction Wand**](https://www.curseforge.com/minecraft/mc-mods/construction-wand) **`[v2.10]`**
+- [**Crafting on a stick**](https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick) **`[v1.1.2]`**
+- [**Crafting Tweaks**](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks) **`[v15.1.9]`**
+- [**Extreme sound muffler**](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler) **`[v3.39]`**
+- [**FastFurnace**](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) **`[v7.0.0]`**
+- [**FastSuite**](https://www.curseforge.com/minecraft/mc-mods/fastsuite) **`[v4.1.1]`**
+- [**FastWorkbench**](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) **`[v7.1.4]`**
+- [**FindMe**](https://www.curseforge.com/minecraft/mc-mods/findme) **`[v3.1.0]`**
+- [**Freecam**](https://www.curseforge.com/minecraft/mc-mods/free-cam) **`[v1.2.3]`**
+- [**FTB Ultimine**](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge) **`[v1902.4.2 build.14]`**
+- [**Get It Together, Drops!**](https://www.curseforge.com/minecraft/mc-mods/get-it-together-drops) **`[v1.3]`**
+- [**Inventory Essentials**](https://www.curseforge.com/minecraft/mc-mods/inventory-essentials) **`[v5.4.0]`**
+- [**Item Collectors**](https://www.curseforge.com/minecraft/mc-mods/item-collectors) **`[v1.1.10]`**
+- [**Load My F\*\*\*ing Tags (LMFT)**](https://www.curseforge.com/minecraft/mc-mods/lmft) **`[v1.0.2]`**
+- [**MiniCoal**](https://www.curseforge.com/minecraft/mc-mods/minicoal) **`[v1.0.0]`**
+- [**NetherPortalFix**](https://www.curseforge.com/minecraft/mc-mods/netherportalfix) **`[v10.0.1]`**
+- [**Overloaded Armor Bar**](https://www.curseforge.com/minecraft/mc-mods/overloaded-armor-bar) **`[v7.2]`**
+- [**Polymorphic Energistics**](https://www.curseforge.com/minecraft/mc-mods/polymorphic-energistics) **`[v0.1.1]`**
+- [**Rechiseled**](https://www.curseforge.com/minecraft/mc-mods/rechiseled) **`[v1.1.6]`**
+- [**Shrink**](https://www.curseforge.com/minecraft/mc-mods/shrink_) **`[v1.3.5]`**
+- [**Sophisticated Backpacks**](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) **`[v3.20.2.1035]`**
+- [**Sophisticated Storage**](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage) **`[v0.9.7.765]`**
+- [**Xtones Reworked**](https://www.curseforge.com/minecraft/mc-mods/xtones-reworked) **`[v1.0.3 43.2.0]`**
+
+#### Libs
+
+- [**Balm**](https://www.curseforge.com/minecraft/mc-mods/balm) **`[v4.6.0]`**
+- [**FTB Library**](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) **`[v1902.4.1 build.236]`**
+- [**Fusion**](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures) **`[v1.2.7b]`**
+- [**Placebo**](https://www.curseforge.com/minecraft/mc-mods/placebo) **`[v7.4.1]`**
+- [**Sophisticated Core**](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core) **`[v0.6.4.730]`**
+
+### Removed
+
+#### Mods
+
+- [**Iron Chests**](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
+- [**Packed Up**](https://www.curseforge.com/minecraft/mc-mods/packed-up-backpacks)
+- [**Smooth Swapping**](https://www.curseforge.com/minecraft/mc-mods/smooth-swapping)
+
 ## [v2.1.2] - 2025-05-01
 
 ### Added
