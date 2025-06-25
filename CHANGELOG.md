@@ -47,6 +47,20 @@
 - [**Placebo**](https://www.curseforge.com/minecraft/mc-mods/placebo) **`[v7.4.1]`**
 - [**Sophisticated Core**](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core) **`[v0.6.4.730]`**
 
+#### Configs for
+
+- [**Better Compatibility Checker**](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker)
+- [**FindMe**](https://www.curseforge.com/minecraft/mc-mods/findme)
+- [**Load My F\*\*\*ing Tags (LMFT)**](https://www.curseforge.com/minecraft/mc-mods/lmft)
+- [**Plasmo Voice (PV)**](https://modrinth.com/plugin/plasmo-voice)
+- [**Shrink**](https://www.curseforge.com/minecraft/mc-mods/shrink_)
+- [**FTB Library**](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge)
+- [**MaFgLib**](https://www.curseforge.com/minecraft/mc-mods/mafglib)
+
+### Changed
+
+- [**BetterF3**](https://www.curseforge.com/minecraft/mc-mods/betterf3) enabled **`rotation`** and **`chunk-relative coordinates`** display
+
 ### Removed
 
 #### Mods
@@ -124,7 +138,7 @@
 
 - Update [**Plasmo Voice (PV)**](https://modrinth.com/plugin/plasmo-voice) **`[v2.1.2]`** → **`[v2.1.3]`**
 - [**Plasmo Voice (PV)**](https://modrinth.com/plugin/plasmo-voice) settings key **`V`**  → **`Backslash (\)`**
-- [**Xaero's Minimap**](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) cave mode disabled
+- [**Xaero's Minimap**](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) **cave mode** disabled
 
 ## [v2.0.0] - 2025-03-06
 
