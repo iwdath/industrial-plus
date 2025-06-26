@@ -60,6 +60,8 @@
 ### Changed
 
 - [**BetterF3**](https://www.curseforge.com/minecraft/mc-mods/betterf3) enabled **`rotation`** and **`chunk-relative coordinates`** display
+- [**Sophisticated Backpacks**](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) open backpack key **`B`** → **```Mouse 5```**
+- zoom key **`C`** → **`Mouse 4`**
 
 ### Removed
 
@@ -138,7 +140,7 @@
 
 - Update [**Plasmo Voice (PV)**](https://modrinth.com/plugin/plasmo-voice) **`[v2.1.2]`** → **`[v2.1.3]`**
 - [**Plasmo Voice (PV)**](https://modrinth.com/plugin/plasmo-voice) settings key **`V`**  → **`Backslash (\)`**
-- [**Xaero's Minimap**](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) **cave mode** disabled
+- [**Xaero's Minimap**](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) **`cave mode`** disabled
 
 ## [v2.0.0] - 2025-03-06
 
