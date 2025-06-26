@@ -26,19 +26,6 @@ If you're playing in single-player mode, you only need to install <kbd>**client-
    - **`Linux:`** <kbd>**~/.minecraft/**</kbd>
 3. Open the `Minecraft` launcher, select the <kbd>**Forge**</kbd> profile, and click <kbd>**Play**</kbd>.
 
-<kbd>**Client-side**</kbd> mods, divided into <kbd>**mods**</kbd> and <kbd>**libs**</kbd>, are located in this repository at the following path:
-
-```swift
-modpack
-└── client-side
-    ├── libs
-    │   ├── lib.jar
-    │   └── ...
-    └── mods
-        ├── mod.jar
-        └── ...
-```
-
 ### Server Side
 
 If you're running your own server, you also need to install <kbd>**server-side**</kbd> mods:
@@ -46,21 +33,6 @@ If you're running your own server, you also need to install <kbd>**server-side**
 1. Ensure the correct version of `Minecraft` <kbd>**Forge**</kbd> is installed on your server. If not, download the [**installer**][forge], run it, and select the <kbd>**Install Server**</kbd> option.
 2. Download the <kbd>**server-side**</kbd> [**modpack**][releases] and extract it to the server's root directory, where <kbd>**server.jar**</kbd> and other core files are located.
 3. Start the server and make sure it runs without errors and all mods load correctly.
-
-<kbd>**Server-side**</kbd> mods, divided into <kbd>**mods**</kbd> and <kbd>**libs**</kbd>, are located in this repository at the following path:
-
-```swift
-modpack
-└── server-side
-    ├── libs
-    │   ├── lib.jar
-    │   └── ...
-    └── mods
-        ├── mod.jar
-        └── ...
-```
-
-> **_Don't forget to install mods on your computer as indicated in the <kbd>[**_Client-side_**](#client-side)</kbd> installation section._**
 
 ## Tables of Components <kbd>**200 + 14**</kbd>
 
@@ -521,5 +493,5 @@ This structure helps users tailor the modpack to their needs by clearly showing 
 [spring-flowers]: https://www.curseforge.com/minecraft/texture-packs/spring-flowers
 
 <!-- General links for installation and Forge -->
-[releases]: https://github.com/iwdath/industrial-plus-modpack-forge-mc1.19.2/releases
+[releases]: https://github.com/iwdath/industrial-plus/releases
 [forge]: https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html
