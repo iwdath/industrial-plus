@@ -11,7 +11,7 @@
 - [**AI Improvements**](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) **`[v0.5.2]`**
 - [**Applied Energistics 2 Wireless Terminals (AE2WTLib)**](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals) **`[v12.9.7]`**
 - [**AttributeFix**](https://www.curseforge.com/minecraft/mc-mods/attributefix) **`[v17.2.8]`**
-- [**Better Compatibility Checker**](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) **`[v1.0.10 build.50]`**
+- [**Better Compatibility Checker (BCC)**](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) **`[v1.0.10 build.50]`**
 - [**Blue Flame Burning**](https://www.curseforge.com/minecraft/mc-mods/blueflame) **`[v0.1.0.2]`**
 - [**Bridging Mod**](https://www.curseforge.com/minecraft/mc-mods/bridging-mod) **`[v2.1.1]`**
 - [**Clumps**](https://www.curseforge.com/minecraft/mc-mods/clumps) **`[v9.0.0 14]`**
@@ -49,7 +49,8 @@
 
 #### Configs for
 
-- [**Better Compatibility Checker**](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker)
+- [**Additional Placements**](https://www.curseforge.com/minecraft/mc-mods/additional-placements)
+- [**Better Compatibility Checker (BCC)**](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker)
 - [**FindMe**](https://www.curseforge.com/minecraft/mc-mods/findme)
 - [**Load My F\*\*\*ing Tags (LMFT)**](https://www.curseforge.com/minecraft/mc-mods/lmft)
 - [**Plasmo Voice (PV)**](https://modrinth.com/plugin/plasmo-voice)

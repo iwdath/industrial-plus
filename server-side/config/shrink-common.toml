@@ -11,5 +11,5 @@ enableMobBottles = true
 maxSize = 10.0
 #Set the min size a player can shrink too
 #Range: 0.0 ~ 100.0
-minSize = 0.0
+minSize = 0.01
 
