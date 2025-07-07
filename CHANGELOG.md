@@ -2,9 +2,9 @@
 
 ## [v3.0.0] - 2025-07-07
 
-### Added
+### ➕ Added
 
-#### Mods
+#### 🧱 Mods
 
 - [**Accelerated Decay**](https://www.curseforge.com/minecraft/mc-mods/accelerated-decay) **`[v1.0.0]`**
 - [**AEInfinityBooster**](https://www.curseforge.com/minecraft/mc-mods/aeinfinitybooster) **`[v1.2.0 11]`**
@@ -39,7 +39,7 @@
 - [**Sophisticated Storage**](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage) **`[v0.9.7.765]`**
 - [**Xtones Reworked**](https://www.curseforge.com/minecraft/mc-mods/xtones-reworked) **`[v1.0.3 43.2.0]`**
 
-#### Libs
+#### 🧩 Libs
 
 - [**Balm**](https://www.curseforge.com/minecraft/mc-mods/balm) **`[v4.6.0]`**
 - [**FTB Library**](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) **`[v1902.4.1 build.236]`**
@@ -47,7 +47,7 @@
 - [**Placebo**](https://www.curseforge.com/minecraft/mc-mods/placebo) **`[v7.4.1]`**
 - [**Sophisticated Core**](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core) **`[v0.6.4.730]`**
 
-#### Configs for
+#### ⚙️ Configs for
 
 - [**Additional Placements**](https://www.curseforge.com/minecraft/mc-mods/additional-placements)
 - [**Better Compatibility Checker (BCC)**](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker)
@@ -58,15 +58,15 @@
 - [**FTB Library**](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge)
 - [**MaFgLib**](https://www.curseforge.com/minecraft/mc-mods/mafglib)
 
-### Changed
+### ✏️ Changed
 
 - [**BetterF3**](https://www.curseforge.com/minecraft/mc-mods/betterf3) enabled **`rotation`** and **`chunk-relative coordinates`** display
 - [**Sophisticated Backpacks**](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) open backpack key **`B`** → **```Mouse 5```**
 - zoom key **`C`** → **`Mouse 4`**
 
-### Removed
+### ➖ Removed
 
-#### Mods
+#### 🧱 Mods
 
 - [**Iron Chests**](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
 - [**Packed Up**](https://www.curseforge.com/minecraft/mc-mods/packed-up-backpacks)
@@ -74,16 +74,16 @@
 
 ## [v2.1.2] - 2025-05-01
 
-### Added
+### ➕ Added
 
 - Mod [**Build Guide**](https://www.curseforge.com/minecraft/mc-mods/build-guide) **`[v0.4.4]`**
 - Config for [**Build Guide**](https://www.curseforge.com/minecraft/mc-mods/build-guide)
 
 ## [v2.1.1] - 2025-04-17
 
-### Added
+### ➕ Added
 
-#### Mods
+#### 🧱 Mods
 
 - [**Additional Placements**](https://www.curseforge.com/minecraft/mc-mods/additional-placements) **`[v2.2.2]`**
 - [**Forgematica**](https://www.curseforge.com/minecraft/mc-mods/forgematica) **`[v0.1.10]`**
@@ -96,48 +96,48 @@
 - [**Quark**](https://www.curseforge.com/minecraft/mc-mods/quark) **`[v3.4 418]`**
 - [**Wall-Jump TXF**](https://www.curseforge.com/minecraft/mc-mods/wall-jump-txf) **`[v1.3.3]`**
 
-#### Libs
+#### 🧩 Libs
 
 - [**AutoRegLib**](https://www.curseforge.com/minecraft/mc-mods/autoreglib) **`[v1.8.2 55]`**
 - [**MaFgLib**](https://www.curseforge.com/minecraft/mc-mods/mafglib) **`[v0.1.14]`**
 
-#### Configs for
+#### ⚙️ Configs for
 
 - [**Forgematica**](https://www.curseforge.com/minecraft/mc-mods/forgematica)
 - [**Forgery**](https://www.curseforge.com/minecraft/mc-mods/forgery)
 - [**Held Item Tooltips**](https://www.curseforge.com/minecraft/mc-mods/held-item-tooltips)
 - [**Quark**](https://www.curseforge.com/minecraft/mc-mods/quark)
 
-### Changed
+### ✏️ Changed
 
 - Disabled inventory sorting on **`R`** in [**Inventory Profiles Next (IPN)**](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next)
 - [**Packed Up**](https://www.curseforge.com/minecraft/mc-mods/packed-up-backpacks) open bag key **`R`** → **```Grave accent (`)```**
 - [**Presence Footsteps**](https://www.curseforge.com/minecraft/mc-mods/presence-footsteps-forge) settings key **`F10`** → **`Not bound`**
 
-### Removed
+### ➖ Removed
 
 - [**(VT) Lower Fire**](https://vanillatweaks.net/picker/resource-packs/) resource pack
 - Config for [**Collective**](https://www.curseforge.com/minecraft/mc-mods/collective)
 
-#### Mods
+#### 🧱 Mods
 
 - [**Double Doors**](https://www.curseforge.com/minecraft/mc-mods/double-doors)
 - [**Harvest With Ease**](https://www.curseforge.com/minecraft/mc-mods/harvest-with-ease)
 - [**Raised**](https://www.curseforge.com/minecraft/mc-mods/raised)
 - [**e4mc**](https://www.curseforge.com/minecraft/mc-mods/e4mc)
 
-#### Libs
+#### 🧩 Libs
 
 - [**Cobweb**](https://www.curseforge.com/minecraft/mc-mods/cobweb)
 - [**Collective**](https://www.curseforge.com/minecraft/mc-mods/collective)
 
 ## [v2.0.1] - 2025-03-10
 
-### Added
+### ➕ Added
 
 - Config for [**FastQuit**](https://www.curseforge.com/minecraft/mc-mods/fastquit-forge)
 
-### Changed
+### ✏️ Changed
 
 - Update [**Plasmo Voice (PV)**](https://modrinth.com/plugin/plasmo-voice) **`[v2.1.2]`** → **`[v2.1.3]`**
 - [**Plasmo Voice (PV)**](https://modrinth.com/plugin/plasmo-voice) settings key **`V`**  → **`Backslash (\)`**
@@ -145,11 +145,11 @@
 
 ## [v2.0.0] - 2025-03-06
 
-### Added
+### ➕ Added
 
 - options.txt
 
-#### Mods
+#### 🧱 Mods
 
 - [**A Good Place**](https://www.curseforge.com/minecraft/mc-mods/a-good-place) **`[v1.1.0]`**
 - [**Advancement Plaques**](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques) **`[v1.4.7]`**
@@ -248,7 +248,7 @@
 - [**YUNG's Extras**](https://www.curseforge.com/minecraft/mc-mods/yungs-extras) **`[v3.1.0]`**
 - [**e4mc**](https://www.curseforge.com/minecraft/mc-mods/e4mc) **`[v5.3.0]`**
 
-#### Libs
+#### 🧩 Libs
 
 - [**Blueprint**](https://www.curseforge.com/minecraft/mc-mods/blueprint) **`[v6.2.0]`**
 - [**Citadel**](https://www.curseforge.com/minecraft/mc-mods/citadel) **`[v2.1.4]`**
@@ -265,7 +265,7 @@
 - [**YUNG's API**](https://www.curseforge.com/minecraft/mc-mods/yungs-api) **`[v3.8.10]`**
 - [**playerAnimator**](https://www.curseforge.com/minecraft/mc-mods/playeranimator) **`[v1.0.2]`**
 
-#### Resource Packs
+#### 🎨 Resource Packs
 
 - [**(VT) Lower Fire**](https://vanillatweaks.net/picker/resource-packs/)
 - [**(VT) Lower Shield**](https://vanillatweaks.net/picker/resource-packs/)
@@ -283,7 +283,7 @@
 - [**Simple Lower Grass Sides**](https://www.curseforge.com/minecraft/texture-packs/simple-lower-grass-sides) **`[v1.0.0]`**
 - [**Spring Flowers**](https://www.curseforge.com/minecraft/texture-packs/spring-flowers)
 
-#### Configs for
+#### ⚙️ Configs for
 
 - [**Inventory HUD+**](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge)
 - [**Obscure Tooltips**](https://www.curseforge.com/minecraft/mc-mods/obscure-tooltips)
@@ -316,18 +316,18 @@
 - [**Xaero's Minimap**](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
 - [**Xaero's World Map**](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
 
-### Removed
+### ➖ Removed
 
-#### Mods
+#### 🧱 Mods
 
 - [**Legendary Tooltips**](https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips)
 - [**The One Probe**](https://www.curseforge.com/minecraft/mc-mods/the-one-probe)
 
 ## [v1.1.0] - 2025-02-22
 
-### Changed
+### ✏️ Changed
 
-#### Updated Mods
+#### ♻️ Updated Mods
 
 - [**Advanced Solars Classic**](https://www.curseforge.com/minecraft/mc-mods/advanced-solars-classic) **`[v2.0.5]`** → **`[v2.1.0]`**
 - [**AmbientSounds**](https://www.curseforge.com/minecraft/mc-mods/ambientsounds) **`[v5.2.13]`** → **`[v5.3.9]`**
@@ -343,7 +343,7 @@
 - [**Xaero's Minimap**](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) **`[v24.1.1]`** → **`[v25.1.0]`**
 - [**Xaero's World Map**](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map) **`[v1.38.4]`** → **`[v1.39.4]`**
 
-#### Updated Libs
+#### ♻️ Updated Libs
 
 - [**Cloth Config API**](https://www.curseforge.com/minecraft/mc-mods/cloth-config) **`[v8.3.115]`** → **`[v8.3.134]`**
 - [**CreativeCore**](https://www.curseforge.com/minecraft/mc-mods/creativecore) **`[v2.9.4]`** → **`[v2.11.28]`**
@@ -352,9 +352,9 @@
 
 ## [v1.0.0] - 2024-05-24
 
-### Added
+### ➕ Added
 
-#### Mods
+#### 🧱 Mods
 
 - [**Advanced Solars Classic**](https://www.curseforge.com/minecraft/mc-mods/advanced-solars-classic) **`[v2.0.5]`**
 - [**AmbientSounds**](https://www.curseforge.com/minecraft/mc-mods/ambientsounds) **`[v5.2.13]`**
@@ -397,7 +397,7 @@
 - [**Xaero's Minimap**](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) **`[v24.0.3]`**
 - [**Xaero's World Map**](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map) **`[v1.38.1]`**
 
-#### Libs
+#### 🧩 Libs
 
 - [**Architectury API**](https://www.curseforge.com/minecraft/mc-mods/architectury-api) **`[v6.6.92]`**
 - [**Cloth Config API**](https://www.curseforge.com/minecraft/mc-mods/cloth-config) **`[v8.3.115]`**
