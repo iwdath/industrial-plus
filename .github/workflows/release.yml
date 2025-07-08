@@ -23,7 +23,7 @@ jobs:
         id: extract_changelog
         run: |
           VERSION="${{ env.VERSION }}"
-          # Escape version string (v2.1.2 -> \\[v2.1.2\\])
+          # Escape version string (v8.3.8 -> \\[v8.3.8\\])
           ESCAPED_VERSION=$(printf '%s\n' "$VERSION" | sed 's/[][\.*^$(){}?+|/]/\\&/g')
 
           # Extract the changelog section
@@ -31,9 +31,7 @@ jobs:
 
           # Add details wrapper and escape properly
           {
-            echo '---'
-            echo ''
-            echo '<details><summary>Changelog</summary>'
+            echo '<details><summary><h2>📝 Changelog<h2></summary>'
             cat extracted.log
             echo '</details>'
           } > changelog_wrapped.md
@@ -67,7 +65,7 @@ jobs:
           tag_name: ${{ env.VERSION }}
           name: "Industrial+ [${{ env.VERSION }}] Forge mc1.19.2"
           body: |
-            ## Client-Side Installation
+            ## 🖥️ Client-Side Installation
 
             If you're playing in single-player mode, you only need to install <kbd>**client-side**</kbd> mods:
 
@@ -78,7 +76,7 @@ jobs:
                - **`Linux:`** <kbd>**~/.minecraft/**</kbd>
             3. Open the `Minecraft` launcher, select the <kbd>**Forge**</kbd> profile, and click <kbd>**Play**</kbd>.
 
-            ## Server-Side Installation
+            ## 🖧 Server-Side Installation
 
             If you're running your own server, you also need to install <kbd>**server-side**</kbd> mods:
 
@@ -86,9 +84,9 @@ jobs:
             2. Download the <kbd>**server-side**</kbd> modpack and extract it to the server's root directory, where <kbd>**server.jar**</kbd> and other core files are located.
             3. Start the server and make sure it runs without errors and all mods load correctly.
 
-            ${{ env.CHANGELOG_BODY }}
-
             [forge]: https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html
+
+            ${{ env.CHANGELOG_BODY }}
           draft: false
           prerelease: false
           files: |

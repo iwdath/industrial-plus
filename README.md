@@ -3,7 +3,7 @@
 > [!WARNING]
 > Some mods are incompatible with <kbd>**OptiFine**</kbd>. Therefore, this modpack uses <kbd>**Embeddium**</kbd> and <kbd>**Oculus**</kbd> instead. To ensure proper functionality, launch Minecraft with <kbd>**Forge**</kbd> version <kbd>**1.19.2**</kbd> without <kbd>**OptiFine**</kbd>.
 
-## 📝 Description
+## 📄 Description
 
 **`Industrial+`** is a modpack focused on expanding **`Minecraft’s`** industrial side without changing the core feel of the game. It adds systems for automation, resource processing, and engineering, giving players more ways to progress and optimize how they play.
 
