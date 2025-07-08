@@ -3,7 +3,7 @@
 > [!WARNING]
 > Some mods are incompatible with <kbd>**OptiFine**</kbd>. Therefore, this modpack uses <kbd>**Embeddium**</kbd> and <kbd>**Oculus**</kbd> instead. To ensure proper functionality, launch Minecraft with <kbd>**Forge**</kbd> version <kbd>**1.19.2**</kbd> without <kbd>**OptiFine**</kbd>.
 
-## Description
+## 📝 Description
 
 **`Industrial+`** is a modpack focused on expanding **`Minecraft’s`** industrial side without changing the core feel of the game. It adds systems for automation, resource processing, and engineering, giving players more ways to progress and optimize how they play.
 
@@ -11,11 +11,11 @@ The selection of mods is aimed at keeping things structured and approachable. Wh
 
 If you're into building factories, automating production chains, or simply want more depth without breaking the vanilla atmosphere, **`Industrial+`** is made for that.
 
-## Installation
+## 💾 Installation
 
 This modpack is structured into separate <kbd>**client-side**</kbd> and <kbd>**server-side**</kbd> archives to simplify installation and prevent compatibility issues. Some mods are purely visual and should not be installed on a server, while others may cause errors. To avoid manual sorting, the necessary mods for both the client and server have been pre-sorted and can be downloaded from the [**releases**][releases].
 
-### Client Side
+### 🖥️ Client Side
 
 If you're playing in single-player mode, you only need to install <kbd>**client-side**</kbd> mods:
 
@@ -26,7 +26,7 @@ If you're playing in single-player mode, you only need to install <kbd>**client-
    - **`Linux:`** <kbd>**~/.minecraft/**</kbd>
 3. Open the `Minecraft` launcher, select the <kbd>**Forge**</kbd> profile, and click <kbd>**Play**</kbd>.
 
-### Server Side
+### 🖧 Server Side
 
 If you're running your own server, you also need to install <kbd>**server-side**</kbd> mods:
 
@@ -34,7 +34,7 @@ If you're running your own server, you also need to install <kbd>**server-side**
 2. Download the <kbd>**server-side**</kbd> [**modpack**][releases] and extract it to the server's root directory, where <kbd>**server.jar**</kbd> and other core files are located.
 3. Start the server and make sure it runs without errors and all mods load correctly.
 
-## Tables of Components <kbd>**200 + 14**</kbd>
+## 📊 Tables of Components <kbd>**200 + 14**</kbd>
 
 This section presents all components included in this modpack: <kbd>**170 [mods][mods]**</kbd>, <kbd>**30 [libs][libs]**</kbd>, and <kbd>**14 [resource packs][resource-packs]**</kbd>. The components are organized into three tables for better clarity and easier customization.
 
@@ -50,12 +50,12 @@ This structure helps users tailor the modpack to their needs by clearly showing 
 <!-- General links for installation, Forge and navigation -->
 [releases]: https://github.com/iwdath/industrial-plus/releases
 [forge]: https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html
-[components]: #tables-of-components-200--14
-[mods]: #mods-170
-[libs]: #libs-30
-[resource-packs]: #resource-packs-14
+[components]: #-tables-of-components-200--14
+[mods]: #-mods-170
+[libs]: #-libs-30
+[resource-packs]: #-resource-packs-14
 
-<details><summary><h3>Mods <kbd>170</kbd></h3></summary>
+<details><summary><h3>🧱 Mods <kbd>170</kbd></h3></summary>
 
 <!-- To properly display the tables, disable word wrap in your editor -->
 | **name**                                                                                   | **dependencies**                                                                                                                                                                                        | **installation side** |
@@ -231,11 +231,11 @@ This structure helps users tailor the modpack to their needs by clearly showing 
 | [**YUNG's Bridges**][yungs-bridges]                                                        | <kbd>[**YUNG's API**][yungs-api]</kbd>                                                                                                                                                                  | `client and server`   |
 | [**YUNG's Extras**][yungs-extras]                                                          | <kbd>[**YUNG's API**][yungs-api]</kbd>                                                                                                                                                                  | `client and server`   |
 
-<kbd>[**Back to Components**][components]</kbd> ⠀ <kbd>[**Back to Mods**][mods]</kbd>
+<kbd>[**🔝 Components**][components]</kbd> ⠀ <kbd>[**🔙 Mods**][mods]</kbd>
 
 </details>
 
-<details><summary><h3>Libs <kbd>30</kbd></h3></summary>
+<details><summary><h3>🧩 Libs <kbd>30</kbd></h3></summary>
 
 <!-- To properly display the tables, disable word wrap in your editor -->
 | **name**                                                        | **used by**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | **installation side** |
@@ -271,11 +271,11 @@ This structure helps users tailor the modpack to their needs by clearly showing 
 | [**TerraBlender**][terrablender]                                | <kbd>[**Biomes O' Plenty**][biomes-o-plenty]</kbd><br><kbd>[**Oh The Biomes You'll Go (BYG)**][byg]</kbd>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | `client and server`   |
 | [**YUNG's API**][yungs-api]                                     | <kbd>[**YUNG's Better Desert Temples**][yungs-better-desert-temples]</kbd><br><kbd>[**YUNG's Better Dungeons**][yungs-better-dungeons]</kbd><br><kbd>[**YUNG's Better End Island**][yungs-better-end-island]</kbd><br><kbd>[**YUNG's Better Jungle Temples**][yungs-better-jungle-temples]</kbd><br><kbd>[**YUNG's Better Mineshafts**][yungs-better-mineshafts]</kbd><br><kbd>[**YUNG's Better Nether Fortresses**][yungs-better-nether-fortresses]</kbd><br><kbd>[**YUNG's Better Ocean Monuments**][yungs-better-ocean-monuments]</kbd><br><kbd>[**YUNG's Better Strongholds**][yungs-better-strongholds]</kbd><br><kbd>[**YUNG's Better Witch Huts**][yungs-better-witch-huts]</kbd><br><kbd>[**YUNG's Bridges**][yungs-bridges]</kbd> <kbd>[**YUNG's Extras**][yungs-extras]</kbd> | `client and server`   |
 
-<kbd>[**Back to Components**][components]</kbd> ⠀ <kbd>[**Back to Libs**][libs]</kbd>
+<kbd>[**🔝 Components**][components]</kbd> ⠀ <kbd>[**🔙 Libs**][libs]</kbd>
 
 </details>
 
-<details><summary><h3>Resource Packs <kbd>14</kbd></h3></summary>
+<details><summary><h3>🎨 Resource Packs <kbd>14</kbd></h3></summary>
 
 <!-- To properly display the tables, disable word wrap in your editor -->
 | **name**                                                 | **dependencies**                                                                                         |
@@ -295,7 +295,7 @@ This structure helps users tailor the modpack to their needs by clearly showing 
 | [**Simple Lower Grass Sides**][simple-lower-grass-sides] | <kbd>_none_</kbd>                                                                                        |
 | [**Spring Flowers**][spring-flowers]                     | <kbd>_none_</kbd>                                                                                        |
 
-<kbd>[**Back to Components**][components]</kbd> ⠀ <kbd>[**Back to Resource Packs**][resource-packs]</kbd>
+<kbd>[**🔝 Components**][components]</kbd> ⠀ <kbd>[**🔙 Resource Packs**][resource-packs]</kbd>
 
 </details>
 
