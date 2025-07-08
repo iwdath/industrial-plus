@@ -31,7 +31,7 @@ jobs:
 
           # Add details wrapper and escape properly
           {
-            echo '<details><summary><h2>📝 Changelog<h2></summary>'
+            echo '<details><summary><h2>📝 Changelog</h2></summary>'
             cat extracted.log
             echo '</details>'
           } > changelog_wrapped.md
@@ -67,21 +67,21 @@ jobs:
           body: |
             ## 🖥️ Client-Side Installation
 
-            If you're playing in single-player mode, you only need to install <kbd>**client-side**</kbd> mods:
+            If you're playing in single-player mode, you only need to install `client-side` mods:
 
-            1. Ensure the correct version of `Minecraft` <kbd>**Forge**</kbd> is installed. If not, download the [**installer**][forge], run it, and select the <kbd>**Install Client**</kbd> option.
-            2. Download the <kbd>**client-side**</kbd> modpack and extract it to your game directory:
+            1. Ensure the correct version of `Minecraft` <kbd>**Forge**</kbd> is installed. If not, download the [**installer**][forge], run it, and select the `Install Client` option.
+            2. Download the `client-side` modpack and extract it to your game directory:
                - **`Windows:`** <kbd>**%appdata%\\.minecraft\\**</kbd>
                - **`macOS:`** <kbd>**~/Library/Application Support/minecraft/**</kbd>
                - **`Linux:`** <kbd>**~/.minecraft/**</kbd>
-            3. Open the `Minecraft` launcher, select the <kbd>**Forge**</kbd> profile, and click <kbd>**Play**</kbd>.
+            3. Open the `Minecraft` launcher, select the <kbd>**Forge**</kbd> profile, and click `Play`.
 
             ## 🖧 Server-Side Installation
 
-            If you're running your own server, you also need to install <kbd>**server-side**</kbd> mods:
+            If you're running your own server, you also need to install `server-side` mods:
 
-            1. Ensure the correct version of `Minecraft` <kbd>**Forge**</kbd> is installed on your server. If not, download the [**installer**][forge], run it, and select the <kbd>**Install Server**</kbd> option.
-            2. Download the <kbd>**server-side**</kbd> modpack and extract it to the server's root directory, where <kbd>**server.jar**</kbd> and other core files are located.
+            1. Ensure the correct version of `Minecraft` <kbd>**Forge**</kbd> is installed on your server. If not, download the [**installer**][forge], run it, and select the `Install Server` option.
+            2. Download the `server-side` modpack and extract it to the server's root directory, where `server.jar` and other core files are located.
             3. Start the server and make sure it runs without errors and all mods load correctly.
 
             [forge]: https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html
