@@ -14,9 +14,9 @@
 
 <p align="center">
   <strong>🌐 Language:</strong>
-  <a href="#"><kbd><img src="assets/US.svg" alt="US" width="15px"></kbd></a>
-  <a href="#"><code><img src="assets/RU.svg" alt="RU" width="15px"></code></a>
-  <a href="#"><code><img src="assets/UA.svg" alt="UA" width="15px"></code></a>
+  <a href="#"><kbd><img src="assets/US.svg" alt="US" width="16px"></kbd></a>
+  <a href="#"><code><img src="assets/RU.svg" alt="RU" width="16px"></code></a>
+  <a href="#"><code><img src="assets/UA.svg" alt="UA" width="16px"></code></a>
 </p>
 
 <h2>📘 About</h2>
@@ -70,7 +70,7 @@ If you're running your own server, you also need to install `server-side` mods:
 2. Download the `server-side` [**modpack**][releases] and extract it to the server's root directory, where `server.jar` and other core files are located.
 3. Start the server and make sure it runs without errors and all mods load correctly.
 
-## 📊 Tables of Components <kbd>**200 + 14**</kbd>
+## 📊 <a name="components">Tables of Components</a> <kbd>**200 + 14**</kbd>
 
 This section presents all components included in this modpack: <kbd>**170 [mods][mods]**</kbd>, <kbd>**30 [libs][libs]**</kbd>, and <kbd>**14 [resource packs][resource-packs]**</kbd>. The components are organized into three tables for better clarity and easier customization.
 
@@ -88,12 +88,12 @@ This structure helps users tailor the modpack to their needs by clearly showing 
 [modrinth]: https://modrinth.com/project/industrial-plus
 [releases]: https://github.com/iwdath/industrial-plus/releases
 [forge]: https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.2.html
-[components]: #-tables-of-components-200--14
-[mods]: #-mods-170
-[libs]: #-libs-30
-[resource-packs]: #-resource-packs-14
+[components]: #components
+[mods]: #mods
+[libs]: #libs
+[resource-packs]: #resource-packs
 
-<details><summary><h3>🧱 Mods <kbd>170</kbd></h3></summary>
+<details><summary><h3>🧱 <a name="mods">Mods</a> <kbd>170</kbd></h3></summary>
 
 <!-- To properly display the tables, disable word wrap in your editor -->
 | **name**                                                                                   | **dependencies**                                                                                                                                                                                        | **installation side** |
@@ -273,7 +273,7 @@ This structure helps users tailor the modpack to their needs by clearly showing 
 
 </details>
 
-<details><summary><h3>🧩 Libs <kbd>30</kbd></h3></summary>
+<details><summary><h3>🧩 <a name="libs">Libs</a> <kbd>30</kbd></h3></summary>
 
 <!-- To properly display the tables, disable word wrap in your editor -->
 | **name**                                                        | **used by**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | **installation side** |
@@ -313,7 +313,7 @@ This structure helps users tailor the modpack to their needs by clearly showing 
 
 </details>
 
-<details><summary><h3>🎨 Resource Packs <kbd>14</kbd></h3></summary>
+<details><summary><h3>🎨 <a name="resource-packs">Resource Packs</a> <kbd>14</kbd></h3></summary>
 
 <!-- To properly display the tables, disable word wrap in your editor -->
 | **name**                                                 | **dependencies**                                                                                         |
