@@ -49,7 +49,15 @@ If you're into building factories, automating production chains, or simply want 
 
 ## 💾 Installation
 
-This modpack is structured into separate `client-side` and `server-side` archives to simplify installation and prevent compatibility issues. Some mods are purely visual and should not be installed on a server, while others may cause errors. To avoid manual sorting, the necessary mods for both the client and server have been pre-sorted and can be downloaded from the [**releases**][releases].
+This modpack is structured into separate `client-side` and `server-side` archives to simplify installation and prevent compatibility issues. Some mods are purely visual and should not be installed on a server, while others may cause errors. To avoid manual sorting, the necessary mods for both the client and server have been pre-sorted, and you can install **`Industrial+`** using one of the following methods:
+
+1. ⚡ **`Automatic installation`** — via [**CurseForge**][curseforge] or [**Modrinth**][modrinth]
+
+   If you're using the `CurseForge` or `Modrinth` launcher, you can install the modpack in one click from its project page. This is the fastest and most convenient method.
+
+2. 🛠️ **`Manual installation`** — via [**GitHub**][releases]
+
+   If you're using a different launcher or prefer full control over the installation process, you can install the modpack manually by following the instructions below.
 
 ### 🖥️ Client Side
 
