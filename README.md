@@ -25,13 +25,13 @@
 
 <br>
 
-- 🎮 **`Minecraft Version:`** <kbd>1.19.2</kbd>
-- 🧩 **`Mod Loader:`** <kbd>Forge</kbd>
-- 🧱 **`Mods Count:`** <kbd>200</kbd>
-- 🎯 **`Focus:`** <kbd>Tech</kbd> <kbd>Exploration</kbd> <kbd>Vanilla+</kbd>
+- 🎮 **`Minecraft Version:`** <kbd>**1.19.2**</kbd>
+- 🧩 **`Mod Loader:`** <kbd>**Forge**</kbd>
+- 🧱 **`Mods Count:`** <kbd>**200**</kbd>
+- 🎯 **`Focus:`** <kbd>**Tech**</kbd> <kbd>**Exploration**</kbd> <kbd>**Vanilla+**</kbd>
 - 🔧 **`Key Mods:`** <kbd>[**IC2 Classic**][ic2-classic]</kbd> <kbd>[**AE2**][ae2]</kbd>
 - 🚀 **`Optimization:`** <kbd>[**Embeddium**][embeddium]</kbd> <kbd>[**Oculus**][oculus]</kbd>
-- ☁️ **`Multiplayer:`** <kbd>Supported</kbd>
+- ☁️ **`Multiplayer:`** <kbd>**Supported**</kbd>
 - 💾 **`Installation:`** <kbd>[**CurseForge**][curseforge]</kbd> <kbd>[**Modrinth**][modrinth]</kbd> <kbd>[**Manual**][releases]</kbd>
 
 <br>
