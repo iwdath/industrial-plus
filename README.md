@@ -12,12 +12,13 @@
   </a>
 </p>
 
+<!-- postponed until the next life
 <p align="center">
   <strong>🌐 Language:</strong>
   <a href="#"><kbd><img src="assets/US.svg" alt="US" width="16px"></kbd></a>
   <a href="#"><code><img src="assets/RU.svg" alt="RU" width="16px"></code></a>
   <a href="#"><code><img src="assets/UA.svg" alt="UA" width="16px"></code></a>
-</p>
+</p> -->
 
 <h2>📘 About</h2>
 
